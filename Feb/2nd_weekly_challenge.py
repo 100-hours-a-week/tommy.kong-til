@@ -11,7 +11,7 @@ array1 = np.arange(1,10).reshape(3,3)
 array2 = np.random.random((2,5))
 print(f"배열1 합계 : {np.sum(array1)}, 배열1 평균 : {np.mean(array1)}, 배열2 합계 : {np.sum(array2)}, 배열2 평균 : {np.mean(array2)}")
 print()
-# print(f"두 배열의 곱 : {np.dot(array1,array2)}") -> ValueError: operands could not be broadcast together with shapes (3,3) (2,5)
+# print(f"두 배열의 곱 : {np.multiply(array1,array2)}") -> ValueError: operands could not be broadcast together with shapes (3,3) (2,5)
 print()
 
 """
