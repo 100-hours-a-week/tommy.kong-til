@@ -12,6 +12,8 @@ array2 = np.random.random((2,5))
 print(f"배열1 합계 : {np.sum(array1)}, 배열1 평균 : {np.mean(array1)}, 배열2 합계 : {np.sum(array2)}, 배열2 평균 : {np.mean(array2)}")
 print()
 # print(f"두 배열의 곱 : {np.multiply(array1,array2)}") -> ValueError: operands could not be broadcast together with shapes (3,3) (2,5)
+array2 = array2.flatten()[:-1].reshape(3,3)  
+print(f"두 배열의 곱 : {np.multiply(array1,array2)}") 
 print()
 
 """
@@ -41,10 +43,17 @@ print()
 """
 
 import requests
+import json
 
 url = 'https://jsonplaceholder.typicode.com/todos'
 response = requests.get(url)
 data = response.json()
-print(data)
-with open('todos.json', 'w') as f:
-    f.write(str(data))
+
+with open('todos.json', 'w') as fp:
+    json.dump(data,fp,indent=4)
+
+with open('todos.json', 'r') as fp:
+    data = json.load(fp)
+
+for item in data:
+    print(item['title'])
