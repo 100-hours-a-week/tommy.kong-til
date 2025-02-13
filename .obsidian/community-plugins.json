@@ -24,5 +24,8 @@
   "cmdr",
   "obsidian-outliner",
   "better-fn",
-  "better-export-pdf"
+  "better-export-pdf",
+  "obsidian-linter",
+  "obsidian-bartender",
+  "obsidian-style-settings"
 ]
