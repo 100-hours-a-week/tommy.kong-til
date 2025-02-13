@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c883700f80234a2c",
+        "id": "fe32e811d46340d4",
         "type": "tabs",
         "children": [
           {
-            "id": "457762f7b2b57860",
+            "id": "1927a6a880de014c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,8 +73,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "9c91700f598029c2",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,8 +162,19 @@
               "icon": "lucide-list",
               "title": "Outline of 02_13(목)"
             }
+          },
+          {
+            "id": "d3c1cf4cc18f5dd7",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-chatgpt",
+              "state": {},
+              "icon": "lucide-bot",
+              "title": "chatGPT"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -171,13 +193,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "457762f7b2b57860",
+  "active": "1927a6a880de014c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-02-13 10.53.13.excalidraw.md",
     "Feb/02_13(토).md",
+    "Tags",
+    "Excalidraw/Drawing 2025-02-13 10.53.13.excalidraw.md",
     "Excalidraw",
     "Untitled.md",
     "Feb/02_13(목).md",
