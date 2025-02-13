@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feb/02_13(목).md",
+                "file": "Feb/02_13(토).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02_13(목)"
+              "title": "Outline of 02_13(토)"
             }
           },
           {
@@ -173,12 +173,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
