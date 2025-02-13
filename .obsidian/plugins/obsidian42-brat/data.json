@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "nothingislost/obsidian-bartender",
     "nyable/obsidian-code-block-enhancer"
   ],
   "pluginSubListFrozenVersion": [],
