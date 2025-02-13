@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feb/02_13(목).md",
+                "file": "Feb/02_12(수).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_13(목)"
-            }
-          },
-          {
-            "id": "c671b7e9acdab6f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Feb/02-08(토).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02-08(토)"
+              "title": "02_12(수)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,12 +211,14 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "94614d81c3cc5679",
+  "active": "57f4ce2b6987391d",
   "lastOpenFiles": [
+    "Feb/02_13(목).md",
+    "Feb/02_12(수).md",
+    "Feb/02-08(토).md",
     "Feb/02-08(토)_.md",
     "Feb/image-3.png",
     "Feb/Untitled.md",
-    "Feb/02_13(목).md",
     "color_extended.css",
     "untitled folder",
     "extended-colorschemes.css",
