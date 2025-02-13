@@ -84,8 +84,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,11 +193,13 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-file-cleaner:Clean files": false
+      "obsidian-file-cleaner:Clean files": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "1927a6a880de014c",
   "lastOpenFiles": [
+    "images",
     "Feb/02_13(토).md",
     "Tags",
     "Excalidraw/Drawing 2025-02-13 10.53.13.excalidraw.md",

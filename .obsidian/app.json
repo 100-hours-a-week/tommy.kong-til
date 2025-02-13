@@ -1,1 +1,4 @@
-{}
+{
+  "uriCallbacks": true,
+  "attachmentFolderPath": "images"
+}
