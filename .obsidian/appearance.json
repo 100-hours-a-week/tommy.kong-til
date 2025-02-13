@@ -1,7 +1,9 @@
 {
   "cssTheme": "Minimal",
   "accentColor": "#2d86fb",
-  "textFontFamily": "Fira Code",
+  "textFontFamily": "RIDIBatang",
   "monospaceFontFamily": "D2Coding",
-  "interfaceFontFamily": "Apple SD Gothic Neo"
+  "interfaceFontFamily": "Noto Sans KR",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true
 }
