@@ -1,9 +1,12 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "AnuPpuccin",
   "accentColor": "#2d86fb",
   "textFontFamily": "RIDIBatang",
   "monospaceFontFamily": "D2Coding",
   "interfaceFontFamily": "Noto Sans KR",
   "baseFontSize": 18,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "color_extended"
+  ]
 }
