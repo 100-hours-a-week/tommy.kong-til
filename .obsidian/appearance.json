@@ -8,5 +8,6 @@
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "color_extended"
-  ]
+  ],
+  "theme": "moonstone"
 }
