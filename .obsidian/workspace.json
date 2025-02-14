@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -167,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feb/02_13(토).md",
+                "file": "Feb/02_14(금).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02_13(토)"
+              "title": "Outline of 02_14(금)"
             }
           },
           {
@@ -187,12 +188,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 453
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,8 +213,9 @@
   },
   "active": "57f4ce2b6987391d",
   "lastOpenFiles": [
-    "Feb/02_11(화).md",
+    "Untitled.md",
     "Feb/02_14(금).md",
+    "Feb/02_11(화).md",
     "Feb/02_13(목).md",
     "Feb/02_12(수).md",
     "Feb/02_10(월).md",
@@ -231,7 +232,6 @@
     "Tags",
     "Excalidraw/Drawing 2025-02-13 10.53.13.excalidraw.md",
     "Excalidraw",
-    "Untitled.md",
     "Fonts/나눔손글씨 고딕 아니고 고딩.ttf",
     "Fonts"
   ]
