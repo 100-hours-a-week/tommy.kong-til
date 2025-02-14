@@ -178,7 +178,7 @@
             }
           },
           {
-            "id": "d3c1cf4cc18f5dd7",
+            "id": "c94c2485e5855cc9",
             "type": "leaf",
             "state": {
               "type": "custom-frames-chatgpt",
@@ -186,27 +186,13 @@
               "icon": "lucide-bot",
               "title": "chatGPT"
             }
-          },
-          {
-            "id": "316e03943400e849",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 1229
+    "width": 486
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,7 +211,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "d3c1cf4cc18f5dd7",
+  "active": "c94c2485e5855cc9",
   "lastOpenFiles": [
     "Untitled 1.md",
     "Feb/02_14(금).md",
