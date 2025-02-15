@@ -153,22 +153,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feb/02_14(금).md",
+                "file": "02_15(토).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02_14(금)"
+              "title": "Outline of 02_15(토)"
+            }
+          },
+          {
+            "id": "4532e00e1e7c81ae",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-chatgpt",
+              "state": {},
+              "icon": "lucide-bot",
+              "title": "chatGPT"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 353,
-    "collapsed": true
+    "width": 353
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +196,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "451c71d5313f2986",
+  "active": "4532e00e1e7c81ae",
   "lastOpenFiles": [
     "Feb/02_14(금).md",
     "02_15(토).md",
