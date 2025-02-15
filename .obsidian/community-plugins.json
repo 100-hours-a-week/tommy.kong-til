@@ -6,7 +6,6 @@
   "dataview",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "obsidian-latex-suite",
   "omnisearch",
   "editing-toolbar",
   "obsidian-icon-folder",
@@ -27,5 +26,6 @@
   "obsidian-linter",
   "obsidian-bartender",
   "obsidian-style-settings",
-  "waypoint"
+  "waypoint",
+  "obsidian-asciimath"
 ]
