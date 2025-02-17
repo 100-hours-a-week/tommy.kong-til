@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feb/랭체인.md",
+                "file": "Feb/02_17(월).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "랭체인"
+              "title": "02_17(월)"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -176,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 353,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +199,9 @@
   },
   "active": "451c71d5313f2986",
   "lastOpenFiles": [
-    "02_15(토).md",
     "Feb/랭체인.md",
+    "Feb/02_17(월).md",
+    "02_15(토).md",
     "Feb/02_14(금).md",
     "Untitled 1.md",
     "images/Pasted image 20250214131600.png",
