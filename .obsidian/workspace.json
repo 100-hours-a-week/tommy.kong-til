@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feb/랭체인.md",
+                "file": "Feb/02_18(화).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 랭체인"
+              "title": "Outline of 02_18(화)"
             }
           },
           {
@@ -171,14 +171,23 @@
               "icon": "lucide-bot",
               "title": "chatGPT"
             }
+          },
+          {
+            "id": "c1a30cb433af47f3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 353,
-    "collapsed": true
+    "width": 353
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +206,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "451c71d5313f2986",
+  "active": "c1a30cb433af47f3",
   "lastOpenFiles": [
     "Feb/02_17(월).md",
     "Feb/02_18(화).md",
