@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 353,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,7 +207,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c1a30cb433af47f3",
+  "active": "451c71d5313f2986",
   "lastOpenFiles": [
     "Feb/02_17(월).md",
     "Feb/02_18(화).md",
