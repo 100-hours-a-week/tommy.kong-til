@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "02_19(수)"
             }
+          },
+          {
+            "id": "c780d9a920f7b21b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,12 +232,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "212c99d06027eca5",
+  "active": "c780d9a920f7b21b",
   "lastOpenFiles": [
+    "Feb/02_19(수).md",
     "Feb/4_weekly_challenge.ipynb",
     "images/Pasted image 20250219104124.png",
     "images/Pasted image 20250219102532.png",
-    "Feb/02_19(수).md",
     "Feb/02_17(월).md",
     "Feb/02_18(화).md",
     "Feb/랭체인.md",
