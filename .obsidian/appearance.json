@@ -4,7 +4,7 @@
   "textFontFamily": "RIDIBatang",
   "monospaceFontFamily": "D2Coding",
   "interfaceFontFamily": "Noto Sans KR",
-  "baseFontSize": 14,
+  "baseFontSize": 17,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "color_extended"
