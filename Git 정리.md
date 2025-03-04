@@ -808,66 +808,48 @@ git pull 원격저장소주소
 **결론은 변동사항이 생겼다면 git pull 하고 나서 git push 하면 됩니다.**
 
 (참고)
-- git pull 원격저장소주소 브랜치명 입력하면 특정 브랜치만 가져올 수 있습니다. 
-- origin이라는 변수명을 등록해놨으면 당연히 사용가능
-- 예전에 -u 했었으면 git pull, git push까지만 입력해도 잘됩니다.
+- **git pull 원격저장소주소 브랜치명 입력하면 특정 브랜치만 가져올 수 있습니다.** 
+- **origin이라는 변수명을 등록**해놨으면 **당연히 사용가능**
+- 예전에 **-u 했었으면 git pull, git push까지만 입력해도 잘됩니다.**
 
 > **참고사항 : git pull 명령어는 git fetch + git merge 축약어임** 
 
-git pull 입력하면 자동으로 git fetch + git merge를 해줍니다. 
-
-git fetch는 원격저장소에 있는 commit 중에 로컬에 없는 신규 commit을 가져오라는 뜻이고
-
-git merge는 그걸 merge 하라는 뜻입니다. 
-
-그래서 git pull 할 때 팀원 2명이서 같은 파일을 건드리고 있을 경우 merge conflict가 날 수 있습니다.
-
-conflict는 branch 다룰 때 다뤄봤으니 알아서 해결하면 됩니다. 
+**git pull 입력하면 자동으로 git fetch + git merge**를 해줍니다. 
+**git fetch는 원격저장소에 있는 commit 중에 로컬에 없는 신규 commit을 가져오라는 뜻이고 git merge는 그걸 merge 하라는 뜻입니다.** 
+그래서 **git pull 할 때 팀원 2명이서 같은 파일을 건드리고 있을 경우 merge conflict가 날 수 있습니다.**
+**conflict는 branch 다룰 때 다뤄봤으니 알아서 해결하면 됩니다.** 
 
 그래서 오늘의 결론은
-
-협업시 git push 하기 전에 뭐라그러면 git pull 존나게 하면 됩니다.
+**협업시 git push 하기 전에 뭐라그러면 git pull 존나게 하면 됩니다.**
 
 # 8. Github 사용법 3. 브랜치로 협업하기 (pull request)
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC45.png)
 
-신기능을 만들고 싶으면 main 브랜치에 코드짜다가 프로젝트 망치지말고
-
-다른 브랜치를 만들어서 거기에 개발하는 것도 안전하고 좋다고 했습니다.
-
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/branch.png)
-
-원격 repository (저장소) 에도 브랜치를 만들 수 있습니다.
-
-브랜치 생성하려면 1. github.com에서 브랜치 직접 만들어도 되고 
-
-1. 아니면 로컬에서 만든 브랜치를 올려도 브랜치생성이 가능합니다. 
+**신기능을 만들고 싶으면 main 브랜치에 코드짜다가 프로젝트 망치지말고**
+**다른 브랜치를 만들어서 거기에 개발하는 것도 안전하고 좋다고 했습니다.**
+**원격 repository (저장소) 에도 브랜치를 만들 수 있습니다.**
+브랜치 생성하려면 
+1. **github.com에서 브랜치 직접 만들어도 되고** 
+2. **아니면 로컬에서 만든 브랜치를 올려도 브랜치생성이 가능합니다.** 
 
 > **1. github 사이트에서 직접 브랜치 생성가능** 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%988.jpg)
-
 ▲ main 브랜치명 버튼 누르면 브랜치를 바꾸하거나 새로 만들 수 있습니다.
-
 심심하면 하나 만들어보거나 하면 됩니다. 
 
 > **2. 아니면 로컬 repository 에서도 브랜치생성가능**
 
 로컬저장소에서 브랜치생성해서 원격저장소로 git push 해도 됩니다. 
-
 예를 들면 지금 사이트를 하나 만들고 있는데 
-
 사이트 방문자들 컴퓨터에 몰래 비트코인 채굴기를 심는 기능을 만든다고 칩시다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%989.jpg) 
 
 그래서 저번 시간에 git clone으로 복사해온 작업폴더에서
-
 - 새로운 mining 브랜치를 만들고 
-
 - 파일도 하나 새로 만들어서 commit 해봤습니다. 
-
 그 다음에 로컬 브랜치를 원격에 올리고 싶으면
 
 ```
@@ -877,11 +859,8 @@ git push 원격저장소주소 로컬브랜치명
 이거 하면 됩니다.  
 
 참고로 
-
-**git push 원격저장소주소 로컬브랜치명** 하면 특정 로컬저장소 브랜치 -> 원격저장소
-
-**git push 원격저장소주소** 하면 모든 로컬저장소 브랜치 -> 원격저장소 입니다.
-
+- **git push 원격저장소주소 로컬브랜치명** 하면 특정 로컬저장소 브랜치 -> 원격저장소
+- **git push 원격저장소주소** 하면 모든 로컬저장소 브랜치 -> 원격저장소 입니다.
 우리같은 코딩노예들은 특정 브랜치만 올리는 일이 잦습니다. 
 
 > **Pull request 하기** 
