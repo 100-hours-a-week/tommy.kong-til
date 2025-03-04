@@ -480,79 +480,51 @@ git revert 커밋아이디
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%985-2.png)
 
 git log 다시 해보면 revert 해줬다는 commit이 자동으로 생성되어있고 
-
 작업폴더에서 a, c 파일은 있지만 b 파일은 삭제되어있군요.  
-
 결론은 revert 명령어 쓰면 특정 커밋에서 있던 일을 지워버릴 수 있습니다.
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC11-1.png)
-
 ▲ 그림 좋아하면 그림보쇼 
-
 (참고)
-
 - revert 할 때 동시에 여러개의 commit id 입력가능 
-
-- 그냥 최근 했던 commit 1개만 revert하고 싶으면 git revert HEAD 하면 편리합니다.
-
-- merge 명령으로 인해 새로 만들어진 commit도 revert 가능합니다. 그럼 merge가 취소되겠군요 필요하면 찾아보셈 
+- **그냥 최근 했던 commit 1개만 revert하고 싶으면 git revert HEAD 하면 편리합니다.**
+- **merge 명령으로 인해 새로 만들어진 commit도 revert 가능합니다. 그럼 merge가 취소되겠군요 필요하면 찾아보셈** 
 
 > **그냥 전부 시간을 되돌리고 싶으면 git reset**
 
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/i15371175073.png)
 
 지옥같은 개발에 대해 아무것도 모르던 어린시절로 되돌아가고 싶습니까? 
-
 현실에선 불가능하지만 git에선 가능합니다. 
-
 git reset 명령어 사용하면 특정 commit 시절로 아예 모든걸 되돌릴 수 있습니다. 
-
 ```
 git reset --hard 커밋아이디
 ```
 
 입력하면 그 커밋이 생성될 때로 시간을 되돌려줍니다. 
-
 작업폴더 내의 파일도 그 시절로 돌아갑니다.
-
 작업폴더에서 직접 해봅시다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC22.png)
-
 ▲ 그림으로 설명하면 이렇게 동작합니다.
-
 commit2로 reset --hard 해버리면
-
 commit2 이후의 미래 기억을 모두 잃습니다. 
 
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/pepe-son.png)
-
-님들 지금 기억을 다 포기하고 인생을 7살로 리셋해준다고 하면 돌아갈 것입니까?
-
+ 기하고 인생을 7살로 리셋해준다고 하면 돌아갈 것입니까?
 인생 망한놈들은 맘대로 갈 수 있겠지만 
-
 인생이 어느정도 궤도에 오른 사람들은 돌아가기 힘듭니다.
-
-마찬가지로 git reset은 그냥 프로젝트 망하면 쓰거나
-
-아니면 짧은 거리를 돌아갈 때 쓰도록 합시다. 
+**마찬가지로 git reset은 그냥 프로젝트 망하면 쓰거나 아니면 짧은 거리를 돌아갈 때 쓰도록 합시다.** 
 
 (참고)
-
 - 여러명이서 협업하는 리포지토리에는 **보통 reset 쓰면 안됩니다.** 갑자기 소스코드가 사라지는거니까요.
-
 - untracked 파일들은 (git add 안해놓은 파일들은) 사라지지않고 유지됩니다. 
-
-- git clean 명령어 찾아서 쓰면 untracked 파일들도 다 지울 수 있습니다. 
+- **git clean 명령어 찾아서 쓰면 untracked 파일들도 다 지울 수 있습니다.** 
 
 > **참고 : reset시 옵션 설정가능**
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%983-1.png)
-
 ▲ 아까 상황으로 다시 돌아와서 a, b, c 파일을 만들면서 각각 commit을 했다고 칩시다. 
 
 git reset 뒤에 hard / soft / mixed 설정을 넣을 수 있는데 
-
 ```
 git reset --hard d874b2b
 ```
