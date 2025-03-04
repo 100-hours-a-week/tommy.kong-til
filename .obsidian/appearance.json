@@ -7,7 +7,8 @@
   "baseFontSize": 17,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "color_extended"
+    "color_extended",
+    "order"
   ],
   "theme": "moonstone"
 }
