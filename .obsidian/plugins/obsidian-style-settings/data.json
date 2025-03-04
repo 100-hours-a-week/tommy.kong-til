@@ -22,5 +22,6 @@
   "anuppuccin-theme-settings@@anp-simple-rainbow-icon-toggle": true,
   "anuppuccin-theme-settings@@anp-layout-select": "anp-card-layout",
   "anuppuccin-theme-settings@@anp-highlight-custom": "anp-highlight-yellow",
-  "anuppuccin-theme-settings@@anp-decoration-toggle": true
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true,
+  "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-blue"
 }
