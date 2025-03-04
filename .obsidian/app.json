@@ -1,4 +1,6 @@
 {
   "uriCallbacks": true,
-  "attachmentFolderPath": "images"
+  "attachmentFolderPath": "images",
+  "vimMode": false,
+  "showLineNumber": true
 }
