@@ -271,131 +271,84 @@ merge 하고 싶으면
 **git add 파일명**
 **git commit -m '메세지'**
 입력하면 새로운 commit 을 생성해주며 merge conflict 해결 + 브랜치 합치기 완료입니다. 
-
 > **협업시 branch 유용함**
 여러 개발자들과 협업할 때도 branch를 만들어서 하면 편리합니다. 
 같은 프로그램을 만드는데 10명이서 동시에 똑같은 소스코드를 수정하고 저장해버리면 난리가 나지 않을까요. 
 그래서 기능을 하나 추가하고 싶으면
-1. 우선 branch로 프로젝트 사본을 만들어서 거기서 먼저 개발을 조집니다.
-2. 그리고 테스트해봤는데 잘 된다면 main branch 에 다시 합칩니다.
-
+1. **우선 branch로 프로젝트 사본을 만들어서 거기서 먼저 개발을 조집니다.**
+2. **그리고 테스트해봤는데 잘 된다면 main branch 에 다시 합칩니다.**
 그렇게 개발하면 더 안정적으로 개발이 가능하겠군요. 
-
 오늘 요약정리 :
-
 브랜치 생성은 **git branch 브랜치명**
-
 브랜치 이동은 **git switch 브랜치명** 
-
 브랜치 합치기는 main/master 브랜치로 이동한 뒤에 **git merge 브랜치명**
-
 브랜치마다 commit 내역을 그래프로 보고싶으면 **git log --graph --oneline --all**
-
 브랜치 합칠 때 conflict가 발생하면 **파일열어서 수정하고 git add, git commit 하기** 
-
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/pepe_writing.jpg)
-
-메모해두면 다시 볼거같습니까 
-
-그러지말고 집에서 직접 작업폴더에서 새로운 브랜치 만들어보고 합치기도 해봅시다.
-
 # 4. 다양한 Git merge 방법
 
 저번 시간에 브랜치를 합쳐봤는데
-
 실은 브랜치 합치는 방법은 여러가지가 있습니다.
-
 > **3-way merge**  
 
 저번시간에 했던 것 처럼 
-
 브랜치에 각각 신규 commit이 1회 이상 있는 경우 
-
 merge 명령을 내리면 두 브랜치의 코드를 합쳐서 새로운 commit을 자동으로 생성해주는데
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/merge1.png)
 
 이걸 3-way merge 라고 부릅니다.
-
 이게 merge의 기본 동작방식입니다. 
 
 > **fast-forward merge**
 
 가끔은 새로운 브랜치에만 commit 이 있고
-
 기준이 되는 브랜치에는 신규 commit 이 없는 경우가 있습니다.
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC3-4.png)
 
 이 경우 merge 하게 되면 "fast-forward merge 되었습니다" 라고 알려줍니다.
-
 fast-forward merge가 뭐냐면 
-
 딱히 합칠게 없어서 그냥 신규브랜치 보고
-
 **"지금부터 니 이름은 main 브랜치여"** 하는 것입니다. 
-
 그래도 결과는 어짜피 같지 않을까요. 
-
-그래서 "기준이 되는 브랜치에 신규 commit이 없으면" 자동으로 fast-forward merge가 발동됩니다. 
-
+**그래서 "기준이 되는 브랜치에 신규 commit이 없으면" 자동으로 fast-forward merge가 발동됩니다.** 
 진짜 그런지 궁금하면 직접 테스트해봅시다. 
-
 물론 싫으면 **git merge --no-ff 브랜치명** 해서 강제로 3-way merge 할 수도 있습니다. 
 
 > **브랜치를 삭제하려면**
 
 3-way,  fast-forward 아무렇게나 merge 해도
-
 브랜치를 merge 하고 나면 브랜치가 자동으로 삭제되진 않습니다.
-
 ```
 git branch -d 브랜치이름
 git branch -D 브랜치이름
 ```
 
 둘 중 하나 사용하면 이제 필요없는 브랜치를 삭제할 수 있습니다. 
-
 병합이 완료된 브랜치 삭제시엔 -d 이것만 해도 되는데
-
 병합하지 않은 브랜치 삭제시엔 -D 이거 해야함 
-
 심심하면 저번에 만든 coupon 브랜치 삭제하고 어떻게 보이는지 확인해봅시다.
 
 > **rebase and merge** 
 
 브랜치를 rebase 하고 나서 merge 하는 짓거리도 가능합니다. 
-
 일단 rebase가 뭐냐면 
-
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/merge3.png) 
 
-rebase는 브랜치의 시작점을 다른 commit으로 옮겨주는 행위입니다. 
-
-1. rebase를 이용해서 신규브랜치의 시작점을 main 브랜치 최근 commit으로 옮긴 다음 
-
-2. fast-forward merge하는 것입니다. 
+**rebase는 브랜치의 시작점을 다른 commit으로 옮겨주는 행위입니다.** 
+1. ==rebase를 이용해서 신규브랜치의 시작점을 main 브랜치 최근 commit으로 옮긴 다음== 
+2. ==fast-forward merge하는 것입니다. ==
 
 이런 식으로도 브랜치 합치기가 가능하겠군요. 
-
 왜 이따구로 하냐고요?
-
-1. 3-way merge 말고 강제로 fast-forward 하고 싶을 때
-
-2. 브랜치 그딴거 필요없이도 코드 잘짜는 고수같은 느낌을 주고 싶을 때
-
-3. commit 내역을 한 줄로 계속 이어서 남기고 싶을 때
-
+1. **3-way merge 말고 강제로 fast-forward 하고 싶을 때**
+2. **브랜치 그딴거 필요없이도 코드 잘짜는 고수같은 느낌을 주고 싶을 때**
+3. **commit 내역을 한 줄로 계속 이어서 남기고 싶을 때**
 그러고 싶으면 일반 3-way merge 대신 rebase & merge 해도 됩니다.
-
 그래서 실제로 rebase and merge 하고 싶으면 
-
 1. 새로운 브랜치로 먼저 이동해서
-
 2. git rebase main 하면 됩니다. 
-
 3. 그럼 브랜치가 main 브랜치 끝으로 이동하는데 그걸 fast-forward merge 하면 됩니다. 
-
 ```
 git switch 새로운브랜치
 git rebase main
@@ -405,15 +358,10 @@ git merge 새로운브랜치
 ```
 
 차례로 입력하면 rebase 끝입니다. 
-
 rebase & merge를 한 줄로 쉽게 비유하자면 **강제 fast-forward merge**입니다. 
-
 직접 새로운 브랜치 만들고 commit 몇 번 하고 rebase 해보십시오.  
-
 당연히 main 말고 다른 브랜치끼리도 가능합니다. 
-
 물론 단점도 있는데 
-
 브랜치끼리 차이가 너무 많은 경우 rebase하면 충돌이 많이 발생할 수 있는데 그거 하나하나 해결하기 귀찮습니다. 
 
 > **squash and merge 하는 경우도 있음**
