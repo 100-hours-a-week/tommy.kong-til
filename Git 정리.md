@@ -1163,8 +1163,92 @@ git stash -p
 		2. git checkout feature-branch
 		3. git rebase main
 		4. **main 브랜치 위에 feature-branch 변경 사항이 순차적으로 적용**되므로 **충돌 가능성을 줄일 수 있음**.
+		5. 여기서 rebase는 브랜치의 시작점을 다른 commit으로 옮겨주는 행위입니다.
+6. 정리
+	1️⃣ git status로 충돌 파일 확인
+	2️⃣ 충돌 파일을 열어 <<<<<<<, =======, >>>>>>> 부분 수정
+	3️⃣ git add <파일>로 수정 완료
+	4️⃣ git commit -m "Fix merge conflict"으로 충돌 해결
+	5️⃣ git merge --continue 또는 git push 진행
 
+## 자주 쓰는 명령어 
 
+**git init** 새로운 Git 저장소를 초기화
 
+**git clone <저장소URL>** 원격 저장소 복제
 
+**git remote add origin <저장소URL>** 원격 저장소 추가
 
+**git remote -v** 연결된 원격 저장소 확인
+
+**git status** 현재 변경된 파일 상태 확인
+
+**git branch** 로컬 브랜치 목록 확인
+
+**git branch <브랜치명>** 새로운 브랜치 생성
+
+**git checkout <브랜치명>** 특정 브랜치로 이동
+
+**git switch <브랜치명>** 브랜치 이동 (최신 Git 권장 방식)
+
+**git checkout -b <브랜치명>** 브랜치 생성 & 이동
+
+**git switch -c <브랜치명>** 새로운 브랜치 생성 & 이동 (최신 Git 권장 방식)
+
+**git branch -d <브랜치명>** 로컬 브랜치 삭제
+
+**git push origin --delete <브랜치명>** 원격 브랜치 삭제
+
+**git add <파일>** 특정 파일을 스테이징
+
+**git add .** 모든 변경된 파일을 스테이징
+
+**git commit -m** "메시지" 변경 사항 커밋
+
+**git commit --amend -m** "새로운 메시지" 마지막 커밋 메시지 수정
+
+**git restore --staged <파일>** git add한 파일을 스테이징 해제
+
+**git diff** 변경된 내용 확인 (스테이징되지 않은 파일)
+
+**git diff --staged** git add된 파일의 변경 사항 확인
+
+**git log** 커밋 기록 확인
+
+**git log --oneline --graph --all** 한 줄 요약 그래프 형태로 로그 확인
+
+**git pull origin <브랜치명>** 원격 저장소에서 최신 변경 사항 가져오기
+
+**git fetch origin** 원격 브랜치의 최신 상태만 가져오기
+
+**git push origin <브랜치명>** 로컬 변경 사항을 원격 저장소에 푸시
+
+**git merge <브랜치명>** 현재 브랜치에 다른 브랜치 병합
+
+**git merge --abort** 병합 중단 (충돌 발생 시)
+
+**git mergetool** GUI 머지 툴 실행 (옵션)
+
+**git rebase <브랜치명>** 현재 브랜치를 다른 브랜치 위로 재정렬
+
+**git reset --soft HEAD~1** 마지막 커밋 취소 (변경 내용 유지)
+
+**git reset --hard HEAD~1** 마지막 커밋 취소 (변경 사항 삭제)
+
+**git revert <커밋해시>** 특정 커밋 되돌리기 (새로운 커밋 생성)
+
+**git checkout -- <파일>** 특정 파일 변경사항 삭제
+
+**echo "파일명" >> .gitignore** .gitignore에 특정 파일 추가
+
+**git rm -r --cached .** .gitignore 적용 후 기존 파일 삭제 후 다시 트래킹
+
+**git clone --branch <브랜치명> --single-branch <저장소URL>** 특정 브랜치만 클론
+
+**git tag** 태그 목록 확인
+
+**git tag <태그명>** 태그 생성
+
+**git push origin <태그명>** 특정 태그 푸시
+
+**git push origin --tags** 모든 태그 푸시
