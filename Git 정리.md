@@ -77,163 +77,102 @@ git commit -m '메세지'
 commit 할 때 -m 뒤에 메세지 입력가능합니다. 
 메세지에 코드에 무슨기능 추가했는지 이런거 적으면 됩니다. 
 
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/gitlog.png)
-
 ```
 git log --all --oneline
 git log --all --oneline --graph
 ```
-
 commit 기록을 한 눈에 파악하고 싶으면 git log 명령어 입력하면 됩니다. 
-
 --graph 옵션을 넣으면 그래프로 그려줍니다. 지금은 보잘것 없음 
-
 다만 입력 후엔 Vim 에디터가 켜져서 j, k 키로 위아래 스크롤이 가능하고 q 키로 종료할 수 있습니다. 
 
 **Q. 얼마나 자주 commit 하는게 좋음?**
-
-A. ctrl + s 누르는 것 처럼 5초마다 습관적으로 할 이유는 없고 
-
-간단한 기능을 하나 추가할 때 마다 commit 하면 됩니다. 
-
+A. ctrl + s 누르는 것 처럼 5초마다 습관적으로 할 이유는 없고 간단한 기능을 하나 추가할 때 마다 commit 하면 됩니다. 
 예를 들어 웹개발시 회원가입기능을 만든다고 하면 
-
 - 회원가입 폼 레이아웃을 만들면 commit 하고 
-
 - 입력한 이메일이 맞는지 검증하는 기능을 만들었으면 commit 하고 
-
 - 서버에 전송하는 기능을 만들었으면 commit 하고 
-
 대충 이렇게 작은 작업하나 마쳤으면 commit 하는게 좋습니다. 
-
 물론 3개 다 만들하고 commit 하는 사람들도 있습니다. 본인 맘임
 
 # 2. Git add, commit, diff 쉽게 하는 방법
 
-저번시간에 터미널에서 git add, git commit 5번 정도 입력해보라고 했는데 해오셨습니까?
-
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/IMG_4246.gif)
-
-잘했읍니다. 
-
 근데 요즘은 터미널에 직접 git add 이거 입력하는게 개뻘짓일 수 있습니다.
-
 웬만한 에디터들 보면 git 기능이 내장되어있어서
-
 그거 쓰면 터미널 켤 필요없이 편리하게 add, commit 가능합니다.
-
 (git 기능 없는 에디터면 git 부가기능 설치하면 됩니다.)
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%981-3.png)
-
 ▲ VSCode 에디터의 경우 왼쪽 git 처럼 생긴 메뉴 들어가보면
 
 지금 어떤 파일이 변경되고 추가되었는지 쭉 알려줍니다. 
-
 + 누르면 git add 한거랑 똑같고 
-
 체크마크 누르면 git commit 한거랑 똑같습니다. 
-
 파일이 많고 복잡하면 이거 쓰는게 더 나을 수도 있습니다. 
 
 > **git diff 로 차이점 출력해줄 수 있음** 
 
 commit 하기 전에 이전과 현재 코드가 어떤 차이가 있는지 알고 싶습니까. 
-
 그럼 git diff 명령어를 쓰면 됩니다. 
-
 **바로 전 commit과 현재 코드의 차이점**을 비교해줍니다.
-
 코드 조금 수정해본 다음에 터미널에 git diff 입력해봅시다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/git-diff2.png)
 
 그럼 **현재 파일**이 **최근 commit**과 어떤 부분이 달라졌는지 알려줍니다.
-
 (근데 Vim 에디터가 오픈되어서 스크롤은 j, k / 종료는 q 연타해야합니다)
-
 하지만 터미널의 한계로 차이점보기가 힘들고
-
-설정 안만지면 쓸데없이 엔터키나 스페이스바 변동사항도 다 알려주기 때문에   
-
-보통은 git diff를 쌩으로 사용하진 않습니다. 
-
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%984-4.png)
-
-하지만 구글검색 노출순위를 높이기 위해
+설정 안만지면 쓸데없이 엔터키나 스페이스바 변동사항도 다 알려주기 때문에 보통은 git diff를 쌩으로 사용하진 않습니다. 
 
 우리 같이 유용한 git diff 명령어 몇개만 알아볼까요? ^0^
-
 ```
 git diff 커밋id
 ```
-
 최근 commit과 비교하는게 아니라 **과거의 특정 commit과 현재 파일을 비교하고 싶으면** 커밋ID를 명시해주면 됩니다.
-
 (커밋ID는 git log --oneline 이런거 입력하면 보이는 노란 글자들입니다)
-
 ```
 git diff 커밋id1 커밋id2
 ```
-
 과거의 특정 commit 2개 간의 차이점 비교도 가능합니다. 
 
 > **git difftool 이용하면 조금 더 보기좋음**
 
 이거 쓰면 비주얼적으로 훌륭하게 차이점을 분석해줍니다. 
-
 ```
 git difftool
 ```
-
 입력하면 현재 파일과 최근 commit의 차이점을 비교해줍니다.
 
 ```
 git difftool 커밋id
 ```
-
 입력하면 현재 파일과 특정 commit의 차이점을 비교해줍니다.
 
 ```
 git difftool 커밋id1 커밋id2
 ```
-
 입력하면 특정 commit 2개의 차이점을 비교해줍니다.
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/git-difftool-vim.png)
-
 ▲ 이것도 Vim 에디터가 뜨는데 
 
 hjkl 키로 이동가능하고 :q 여러번 입력해야 나갈 수 있습니다. 아니면 :qa 입력하셈 
-
 이것도 실은 Vim 에디터와 터미널의 한계로 그렇게 편리하진 않습니다. 
-
-git difftool을 Vim 말고 VSCode로 열고 싶으면
-
-> **git diff 말고 에디터 부가기능 쓰는게 더 좋을 수도** 
+git difftool을 Vim 말고 VSCode로 열고 싶으면 **git diff 말고 에디터 부가기능 쓰는게 더 좋을 수도** 
 
 요즘 에디터들 잘되어있는데 뭐하러 터미널에서 git difftool 입력합니까.
-
-VSCode 에디터의 경우 좌측 Extensions 메뉴에서 
-
-Git 관련 부가기능 설치 아무거나 해주면 더 편리하게 git diff 할 수 있습니다. 
+VSCode 에디터의 경우 좌측 Extensions 메뉴에서  Git 관련 부가기능 설치 아무거나 해주면 더 편리하게 git diff 할 수 있습니다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/git-graph.png)
 
 ▲ VSCode 에디터 extension 메뉴에서 git 검색해서 아무거나 설치해봅시다.
-
 저는 Git graph 부가기능을 설치해보겠습니다.
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/git-diff-in-vscode2.png)
-
 ▲ 왼쪽 Git 메뉴 - Git graph 버튼 누르면
-
 commit 내역을 한 눈에 쭉 살펴볼 수 있고 파일명 우클릭하면 git diff도 가능하니
-
 과거 내역을 살펴보고 싶으면 이런 GUI 툴을 주로 활용해봅시다. 
 
 **Q. git은 자고로 터미널로 조작해야지 요즘 신입들은 편한 것만 찾고 말이야 쯧쯧** 
-
 A. 본인이 편한거 쓰는게 젤 좋습니다.
 
 # 3. Git branch 만들기
@@ -244,156 +183,100 @@ A. 본인이 편한거 쓰는게 젤 좋습니다.
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC3-1.png)
 
 커밋하면서 계속 코드짜다보면 갑자기 새로운 기능을 추가하거나 그래야하는 경우가 있습니다.
-
 그럴 때는 원본파일에 코드를 추가하고 커밋해도 되겠지만
-
 혹시나 잘못해서 지금까지 짰던 프로그램이 망가지거나 그러면 어떻게하죠? 
-
 그럴 걱정 없이 안전하게 새로운 기능을 추가하고 싶으면
-
 **프로젝트의** **복사본을 만들어서 거기에 먼저 개발**해보는것도 나쁘지않습니다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC45.png)
 
-git 안에선 branch 기능을 이용해서 복사본을 쉽게 만들 수 있습니다. 
-
-branch가 뭐냐면 그냥 프로젝트 복사본임 
-
+git 안에선 **branch 기능을 이용해서 복사본을 쉽게 만들 수 있습니다.** 
+**branch가 뭐냐면 그냥 프로젝트 복사본임** 
 예시와 함께 branch 하나 만들어봅시다. 
 
-> **쇼핑몰을 만들고 있는데 새로운 기능이 필요하다**
-
+**쇼핑몰을 만들고 있는데 새로운 기능이 필요하다**
 예를 들어 지금 작업폴더에서 쇼핑몰 만드는 코드를 짜고 있다고 가정해봅시다.
-
 근데 갑자기 쿠폰기능을 추가하고 싶은겁니다. 
-
 근데 위험하고 복잡할 것 같아서 원래 있던 소스코드를 직접 수정하는게 아니라 
-
 프로젝트 사본을 만들어서 거기다가 먼저 개발해보고 싶은겁니다.
-
 그러면 branch를 하나 만들면 됩니다.  
-
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/pepe_branch.png)
 
 ```
 git branch 브랜치이름 
 ```
-
 이러면 프로젝트 사본이 하나 생성됩니다.
-
-저는 git branch coupon 이라고 작명해봤습니다.
+저는 **git branch** coupon 이라고 작명해봤습니다.
 
 ```
 git switch 브랜치이름 
 ```
-
-예를 들어 방금 만든 coupon 브랜치로 이동하고 싶으면
-
-git switch coupon 하면 됩니다.
+예를 들어 방금 만든 coupon 브랜치로 이동하고 싶으면 **git switch** coupon 하면 됩니다.
 
 - 옛날엔 "git checkout 브랜치명" 입력했음 
-
-- 다시 메인 브랜치로 되돌아가고 싶으면 git switch main 하면 됩니다. (님들 설정에 따라 main 말고 master 일 수도 있음)
-
-- 어떤 브랜치에 와있는지 까먹었으면 git status 입력할 수 있습니다. 
-
+- 다시 메인 브랜치로 되돌아가고 싶으면 **git switch main** 하면 됩니다. (**님들 설정에 따라 main 말고 master 일 수도 있음**)
+- **어떤 브랜치에 와있는지 까먹었으면 git status 입력**할 수 있습니다. 
 coupon 브랜치로 이동했으면 거기서 개발하고 commit 맘대로 할 수 있습니다.
-
 **coupon 브랜치에서 새로운 파일 만들어서 코드짜고 commit 몇번 해보십시오.** 
-
 **master/main 브랜치에서도 기존 파일들에 commit 몇번 해봅시다.** 
 
-하기싫은데요
+
+
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC132131.png)
-
 ▲ 지금 상황을 그림으로 그려보면 이렇습니다. 
-
-저번 시간까지 commit 하던 곳도 실은 하나의 branch 입니다.
-
+main branch도 commit 하던 곳도 실은 하나의 branch 입니다.
 main branch 또는 master branch 라고 부르고 
-
 coupon branch에서 작업한 내용은 원래 브랜치인 main branch에 아무런 영향이 없습니다. 
 
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%9877.png)
-
+![[Pasted image 20250304112356.png]]
 ```
 git log --graph --oneline --all
 ```
-
 branch 와 commit 내역을 한 눈에 그래프로 보고 싶으면 이거 입력해보면 됩니다.  
-
 그림이 저처럼 안이쁘면 commit 이 부족할 뿐 
 
 **Q. git log 하면 나오는 HEAD가 뭔가요?**
-
 A. 님 현재 위치임 
 
 > **branch 합치기**
 
 그래서 branch에서 짰던 코드가 맘에들면 어떻게 하냐고요?
-
 원본코드가 있는 master 또는 main 브랜치에 합치면 됩니다.
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC11.png)
 
-브랜치를 합치는걸 전문용어로 merge라고 합니다.
-
+**브랜치를 합치는걸 전문용어로 merge**라고 합니다.
 그럼 브랜치에서 개발했던 내용을 main 브랜치에 더해줄 수 있습니다. 
-
 ```
 git switch main
 git merge 브랜치명 
 ```
 
 merge 하고 싶으면
-
-1. main/master 브랜치로 다시 이동하고
-
-2. git merge 브랜치명 입력하면 합쳐집니다.
-
+1. **main/master 브랜치로 다시 이동하고**
+2. **git merge 브랜치명 입력하면 합쳐집니다**.
 예를 들어 git merge coupon 이러면 coupon 브랜치의 코드들이 main/master 브랜치에 합쳐집니다.
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%985.png)
-
 ▲ merge 하고 나서 git log 이런거 해보면 이쁘게 합쳐줬다고 알려줍니다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%984.png)
-
-▲ 근데 합칠 때 주의사항이 있는데
-
-master 브랜치와 coupon 브랜치에서 같은 파일, 같은 줄을 수정했을 경우
-
-merge conflict 가 발생합니다.
-
+▲ ==근데 합칠 때 주의사항이 있는데 master 브랜치와 coupon 브랜치에서 같은 파일, 같은 줄을 수정했을 경우 merge conflict 가 발생합니다.==
 이 경우 에디터로 해당 파일을 열어보면 충돌사항이 적혀있습니다. 
-
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%983.png)
-
 ▲ 둘 중 어떤 코드를 적용할지 고르면 되는데 
-
 <<<< / >>>> / ==== 이런 쓸데없는 것들은 다 지우고 원하는 코드만 남기면 됩니다.
-
 (VSCode 에디터의 경우 Accept Incoming Change 어쩌구 버튼들을 제공해주는데 그거 누르면 편리합니다)
-
 어떤 코드를 남길지 결정했으면 
-
 **git add 파일명**
-
 **git commit -m '메세지'**
-
 입력하면 새로운 commit 을 생성해주며 merge conflict 해결 + 브랜치 합치기 완료입니다. 
 
 > **협업시 branch 유용함**
-
 여러 개발자들과 협업할 때도 branch를 만들어서 하면 편리합니다. 
-
 같은 프로그램을 만드는데 10명이서 동시에 똑같은 소스코드를 수정하고 저장해버리면 난리가 나지 않을까요. 
-
 그래서 기능을 하나 추가하고 싶으면
-
 1. 우선 branch로 프로젝트 사본을 만들어서 거기서 먼저 개발을 조집니다.
-
 2. 그리고 테스트해봤는데 잘 된다면 main branch 에 다시 합칩니다.
 
 그렇게 개발하면 더 안정적으로 개발이 가능하겠군요. 
