@@ -11,10 +11,14 @@
             "id": "53b0ae762b0c8c2f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "March/03_04(화).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "03_04(화)"
             }
           }
         ]
@@ -205,6 +209,8 @@
   },
   "active": "53b0ae762b0c8c2f",
   "lastOpenFiles": [
+    "March/03_04(화).md",
+    "March",
     "Feb/4wk_challenge.ipynb",
     "Feb/02_18(화).md",
     "Feb/02_19(수).md",
@@ -237,7 +243,6 @@
     "Tags",
     "Excalidraw/Drawing 2025-02-13 10.53.13.excalidraw.md",
     "Excalidraw",
-    "Fonts/나눔손글씨 고딕 아니고 고딩.ttf",
-    "Fonts"
+    "Fonts/나눔손글씨 고딕 아니고 고딩.ttf"
   ]
 }
