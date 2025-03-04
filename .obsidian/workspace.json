@@ -35,8 +35,7 @@
               "title": "03_04(화)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,10 +221,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "ab81ef7e53b5beb2",
+  "active": "9c55e86b7b99e3fc",
   "lastOpenFiles": [
-    "Git 정리.md",
     "March/03_04(화).md",
+    "Git 정리.md",
     "images/Pasted image 20250304112356.png",
     "March/Untitled.md",
     "02_15(토).md",

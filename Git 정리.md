@@ -421,90 +421,60 @@ commit만 주구장창 하는 사람들이 있는데 
 git은 버전관리 프로그램이기 때문에 
 언제든지 이전 commit으로 되돌아가거나
 문제가 되는 commit 내역을 취소하거나 그럴 수 있습니다. 
-git restore / git revert / git reset 명령어써서 파일 복구하는 법을 알아봅시다. 
-
+**git restore / git revert / git reset** 명령어써서 파일 복구하는 법을 알아봅시다. 
 각각 파일하나 복구, commit 복구, 시간되돌리기가 가능합니다. 
-
 깔끔한 상태에서 시작하기 위해
-
 새로운 작업폴더 만들어서 다시 시작합시다. 
 
 > **일단 commit 몇 번 해보고** 
 
 새로운 작업폴더에서 git init 하고 commit 몇 번 해봅시다. 
-
 저는 파일 3개 만들고 만들 때 마다 commit 해봤습니다. 
-
 git log --oneline 입력해보면 여러분의 commit 내역을 한 줄로 이쁘게 보여줍니다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%983-1.png)
-
 ▲ 왼쪽에 있는 노란 문자들은 **commit의 고유 id** 입니다. 
 
 고유 id를 이용해야 "그 고유 id로 되돌려주세요~" 이런 명령들이 가능합니다.  
-
 > **파일 하나를 되돌리려면 git restore**
 
 파일 하나가 잘못되었을 경우 ctrl + z 여러번 눌러도 되겠지만
-
 수정사항이 너무 많다면 명령어 하나로 처리할 수 있습니다. 
-
 ```
 git restore 파일명
 ```
-
 이러면 최근 commit 된 상태로 현재 파일의 수정내역을 되돌릴 수 있습니다. 
-
 ```
 git restore --source 커밋아이디 파일명
 ```
-
 이러면 입력한 파일이 특정 커밋아이디 시점으로 복구됩니다. 
-
 ```
 git restore --staged 파일명
 ```
-
 이건 복구랑 상관없지만 이러면 특정 파일을 staging 취소할 수 있습니다. 
 
 > **commit을 되돌리려면 git revert** 
 
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/DV4pD0pVAAUVWFf.png)
-
-코드 열심히 짜다가
-
-갑자기 과거 commit 하나가 문제를 일으키면 어떻게 하죠? 
-
+**코드 열심히 짜다가 갑자기 과거 commit 하나가 문제를 일으키면 어떻게 하죠?** 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%983-1.png)
 
 위 사진을 보면 지금 commit이 3개 있는데
-
 여기서 b 파일이 문제가 많아서
-
 b 파일을 만든 d874b2b commit을 취소하고 싶어진겁니다. 
-
 commit 하나를 취소하고 싶으면 git revert 사용하면 됩니다. 
-
 실은 없애버리는건 아니고 commit 하나를 취소한 commit을 하나 생성해줍니다. 
-
 ```
 git revert 커밋아이디
 ```
-
 이거 입력하면 그 커밋아이디에서 일어난 일만 취소해줍니다. 
-
 실행하면 아마 에디터가 뜰 텐데 맘대로 커밋메세지 수정하고 닫으면 끝입니다.
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%984-1.png)
-
 ▲ revert 명령시 가끔 Vim 에디터가 뜨는 사람들이 있을겁니다.
 
 커밋 메세지 수정하라는건데 i 눌러서 글자수정하고 싶으면 하고 esc 눌러서 나올 수 있습니다.
-
 그리고 :wq 누르면 커밋 메세지가 저장됩니다.
-
 아무튼 에디터 닫고나면 새로운 커밋이 생성되고 b파일만 뿅 삭제되어있습니다.
-
 (그 커밋id 이후에 했던 파일이나 커밋들은 영향없이 유지됨)
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%985-2.png)
