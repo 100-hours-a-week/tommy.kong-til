@@ -592,91 +592,64 @@ git branch -M main
 ```
 
 입력하면 기본 브랜치 이름이 변경됩니다. 
-
 안해도 될 수 있음 
-
 1. 그 다음에 파일같은거 만들어서 commit 몇 번 해보십시오. 
 
 > **Github에서 만든 원격 저장소에 올리기**
 
 로컬저장소 -> 원격저장소
-
 이렇게 업로드하고 싶으면 작업폴더에서 터미널켜서
-
 ```
 git push -u 원격저장소주소 main
 ```
-
 하면 됩니다.
 
 - 로컬저장소의 main 브랜치를 원격저장소에 올리라는 뜻입니다. 다른 브랜치도 올릴 수 있음 
-
 - github 로그인하라고 뜨면 로그인하면 됩니다. 
-
 - 참고로 -u 옵션은 방금 입력한 주소 기억해두라는 뜻입니다. 다음부터는 주소를 길게 입력안하고 git push만 입력해도 잘됩니다.  
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%983-1.jpg)
-
 ▲ 원격 repository 주소는 이렇게 https:// 부터 시작해서 .git으로 끝납니다.
 
 잘 찾아보십시오. 
-
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%984.jpg)
 
 ▲ 저런거 안뜨면 주소창에 있는거 그대로 복사해와서 .git만 뒤에 붙이면
-
 그기 님들 원격 repository 접속url입니다. 
-
 아무생각없이 제꺼 그대로 따라치는 사람들이 한 달에 10명씩 있습니다.  
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%985-1.jpg)
 
 ▲ 그랬더니 진짜로 로컬에 있던 파일과 commit 내역이 올라갔습니다. 
-
 아무튼 결론은 원할 때 **git push 어쩌구** 하면 여러분이 작업한 파일들을 원격저장소에 업로드할 수 있습니다. 
-
 이제 전 세계 사람들이 여러분의 부끄러운 코드 관람가능 
 
 (참고)
-
 github 사이트에서도 파일 수정삭제, commit 이런 것들 자유롭게 가능합니다. 
-
 github 원격저장소는 비공개로 돌릴 수도 있음 
 
 > **원격저장소주소 길게 입력하는게 귀찮으면** 
 
 그니까 https://github.com/codingapple1/lesson.git 이거 매번 입력하기 귀찮으면 어떻게 하냐는 겁니다. 
-
 그럴 땐 그 주소를 변수에 저장해서 사용할 수 있습니다. 
-
 변수에 저장하려면 
-
-터미널에 git remote add 변수명 저장소주소
-
-입력하면 됩니다. 
+터미널에 git remote add 변수명 저장소주소 입력하면 됩니다. 
 
 ```
 git remote add origin https://github.com/codingapple1/lesson.git
 ```
 
 이렇게 입력하면 "https://어쩌구" 주소가 필요할 때 마다 origin 이라는 변수명을 쓸 수 있습니다. 
-
 아까쓰던 지랄맞게 길던 명령어를 git push -u origin main 이렇게 짧고 귀엽게 쓸 수 있겠군요. 
-
 (참고) 실은 -u는 방금 입력한 주소를 기억하라는 뜻이라
-
 -u 붙여서 1번 했었으면 나중엔 git push 까지만 입력해도 알아서 잘됩니다. 
-
 진짜로 git push만 해보셈 
-
 (참고) 변수목록을 살펴보고 싶으면 git remote -v 입력해보십쇼 
 
 > **원격저장소에 있던거 그대로 내려받기**
 
 돈벌어서 맥북을 샀는데 그 컴퓨터에서 갑자기 개발을 시작하고 싶은겁니다.
-
 그럼 귀찮게 컴퓨터간 소스코드를 공유할 필요 없이 
-
 원격저장소에 있던 내용을 그대로 내려받아서 시작하면 편리합니다. 
 
 ```
@@ -688,20 +661,70 @@ git clone https://원격저장소주소
 > **저장소에 올리지 않는 파일들은 .gitignore**
 
 원격저장소를 효율적으로 쓰고 싶으면 쓸데없는 파일은 commit 해서 올리지 않는게 좋습니다.
-
 .gitignore 파일을 하나 만들면 저장소에 올리지 않을 파일들을 쉽게 명시가능합니다.
-
 거기 명시한 파일들은 git add . 해도 스테이징이 되지 않아서 편리합니다.
-
 웹개발을 제일 많이 하니까 웹개발을 예로 들면 
-
 node_modules 이런 폴더, 개인정보들이 들어있는 .env 파일 이런 것들은 안올립니다. 
-
 (어짜피 package.json 파일만 잘 있으면 터미널에서 npm install 입력하면 자동으로 node_modules 폴더가 생성됩니다.)
-
 그래서 .gitignore 파일에 명시해주면 됩니다.
 
-작성하는 법은 필요할 때 구글찾아보십쇼
+```
+touch .gitignore #파일 생성
+nano .gitignore #무시할 파일/디렉터리 추가
+	# 특정 파일 제외 → 파일이름
+	# 특정 폴더 제외 → 폴더이름/
+	# 특정 확장자 제외 → *.확장자
+	# 특정 패턴 제외 → 경로/파일
+	# 특정 파일/폴더 추적 강제 → !파일이름
+```
+
+example
+```
+# __pycache__ 폴더 및 Python 캐시 파일 무시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경 폴더 무시
+venv/
+.env/
+
+# Jupyter Notebook 체크포인트 무시
+.ipynb_checkpoints/
+
+# 로컬 설정 파일 무시
+*.log
+config.json
+
+# node_modules 폴더 제외
+node_modules/
+
+# 환경변수 파일 제외
+.env
+.env.local
+
+# 로그 파일 제외
+*.log
+
+# 시스템 파일 무시
+.DS_Store
+Thumbs.db
+
+# 빌드 폴더 무시
+build/
+dist/
+
+# IDE 설정 파일 무시
+.vscode/
+.idea/
+```
+
+```
+git add .gitignore
+git commit -m "Add .gitignore"
+```
+
 
 # 7.  Github 사용법 2. 타인과 협업하기 (git clone, pull)
 
