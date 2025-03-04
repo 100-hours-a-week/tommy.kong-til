@@ -49,8 +49,7 @@
               "title": "03_04(화)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "March/03_04(화).md",
+                "file": "Git 정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03_04(화)"
+              "title": "Outline of Git 정리"
             }
           },
           {
@@ -237,10 +236,10 @@
       "translate:Open translation view": false
     }
   },
-  "active": "f0c74f363f1f37c4",
+  "active": "9c55e86b7b99e3fc",
   "lastOpenFiles": [
-    "CLI 명령어 정리.md",
     "March/03_04(화).md",
+    "CLI 명령어 정리.md",
     "Untitled 1.md",
     "Git 정리.md",
     "Zotero/Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.md",
