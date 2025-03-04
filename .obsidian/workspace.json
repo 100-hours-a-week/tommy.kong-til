@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zotero/Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.md",
+                "file": "March/03_04(화).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun"
+              "title": "03_04(화)"
             }
           }
         ],
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feb/02_18(화).md",
+                "file": "March/03_04(화).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02_18(화)"
+              "title": "Outline of 03_04(화)"
             }
           },
           {
@@ -219,13 +219,14 @@
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "obsidian-file-cleaner:Clean files": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "translate:Open translation view": false
     }
   },
   "active": "ab81ef7e53b5beb2",
   "lastOpenFiles": [
-    "Git 정리.md",
     "Zotero/Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.md",
+    "Git 정리.md",
     "March/03_04(화).md",
     "Zotero/Large language models are better than theoretical linguists at theoretical linguistics, Ben Ambridge, Liam Blything.md",
     "images/Pasted image 20250304112356.png",
