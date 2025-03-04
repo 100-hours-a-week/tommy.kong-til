@@ -678,7 +678,7 @@ nano .gitignore #무시할 파일/디렉터리 추가
 	# 특정 파일/폴더 추적 강제 → !파일이름
 ```
 
-example
+> example
 ```
 # __pycache__ 폴더 및 Python 캐시 파일 무시
 __pycache__/
@@ -724,30 +724,34 @@ dist/
 git add .gitignore
 git commit -m "Add .gitignore"
 ```
+- .gitignore 파일을 작성한 후, 변경 사항을 커밋하면 적용됨. 
 
+```
+git rm -r --cached .
+git add .
+git commit -m "Apply .gitignore"
+```
+- **이미 Git에 추가된 파일을 .gitignore에 추가한 경우**, 해당 명령어로 캐시를 초기화해야 함.
 
+```
+curl -L -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore
+```
+- GitHub에서는 프로젝트 유형별 .gitignore 템플릿을 제공함.
+- 또는 [GitHub .gitignore 템플릿](https://github.com/github/gitignore)에서 직접 다운로드 가능.
 # 7.  Github 사용법 2. 타인과 협업하기 (git clone, pull)
 
 원격저장소의 장점은 남들과 협업할 수 있다는 겁니다. 
-
 어려운건 아니고 개발자 10명이서 각각 작업한 내용을 원격저장소에 올리면 그게 협업 아니겠습니까 
-
 협업해봅시다. 
 
 > **일이 너무 많아서 코딩노예 1명을 고용했습니다**
 
 물론 여러분은 친구가 없으니까 가상의 팀원을 하나 만들어봅시다. 
-
 코딩노예 팀원이 원격저장소에 있던 코드를 같이 짜고 싶다면 어떻게할까요.
-
 그 친구도 똑같이 코드짜서 git push 어쩌구 하면 그게 협업 끝입니다. 
 
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%83%9D%EA%B0%81_%ED%8C%80%EC%9B%90.png)
-
 **"기존 소스코드가 없는데 코드어떻게 짬?"** 
-
 당연히 코딩노예는 기존 소스코드를 다운받아서 시작할 수 있습니다.  
-
 다운받는 법은 github.com 가서 다운받아도 되고 
 
 ```
@@ -755,61 +759,41 @@ git clone 원격저장소주소
 ```
 
 새로운 작업폴더에서 이거 입력해도 됩니다. 
-
 그럼 원격저장소에 있던 내용을 그대로 복제해줍니다. 
-
 새로 폴더만들어서 진짜 그런지 테스트해봅시다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%982-1.png)
-
 ▲ git clone 했더니 진짜로 저번 시간에 만들었던 리포지토리가 다운받아집니다. 
 
 참고로 필요할 땐 특정 브랜치 1개만 clone 해올 수 있습니다. 필요하면 찾아봅시다. 
-
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EB%94%B0%EB%B4%89_%ED%8C%80%EC%9B%901.png)
+```
+git clone --branch <브랜치이름> --single-branch <저장소URL>
+# git clone --branch feature-branch --single-branch https://github.com/user/repo.git
+```
 
 이제 팀원도 폴더 열어서 코드짜고 commit 하고 git push 하면 됩니다. 
-
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%981-1.png)
-
-▲ 다만 그 팀원도 github 아이디가 있어야하고
-
-그 팀원의 아이디를 Collaborators 메뉴에 등록해놔야 협업가능합니다.  
+▲ 다만 그 팀원도 github 아이디가 있어야하고 그 팀원의 아이디를 Collaborators 메뉴에 등록해놔야 협업가능합니다.  
 
 > **팀원이 commit 하려는데 문제가 생김** 
 
 git push는 맘대로 할 수 있는게 아닙니다.
-
 **갑자기 다른 놈이 만든 파일이 원격저장소에 생기면 git push 못합니다.** 
-
 예를 들어 github.com 의 여러분 리포지토리로 들아가봅시다. 
-
 github 홈페이지에서 이거저거 눌러서 새로운 파일 하나를 만들어봅시다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%986-1.jpg)
-
 ▲ 예를 들어 저는 사이트에서 hello라는 파일을 만들고 commit 했습니다.
-
 이런 식으로 원격저장소가 **타인에 의해 업데이트**되었다고 칩시다. 
 
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/dab_.png)
-
-다른 곳에서 일하던 코딩노예 팀원도
-
-방금 만든 파일을 원격저장소에 업로드하고 싶어진겁니다.
-
+다른 곳에서 일하던 코딩노예 팀원도 방금 만든 파일을 원격저장소에 업로드하고 싶어진겁니다.
 예를 들어 hi 라는 파일을 만들었다고 칩시다. 
-
 그럼 이전과 같이 commit 하고 나서 git push 똑같이 하면 됩니다.
-
 (팀원인 척 해줄 친구가 없으면 그냥 원래 코드짜던 곳에서 git push 해봅시다)
-
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EB%AC%BC%EC%9D%8C%ED%91%9C_%ED%8C%80%EC%9B%90.png)
 
 **"에러나는데요"** 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EC%BA%A1%EC%B2%983-2.png)
-
 ▲ **원격 vs 로컬 내용이 다르다면** 로컬저장소에서 git push가 안됩니다.
 
 왜냐면 그런 상황에서 대충 git push 해버리면 코드가 꼬이기 때문에 얘가 미리 예방해주는 것일 뿐입니다. 
@@ -819,19 +803,13 @@ github 홈페이지에서 이거저거 눌러서 새로운 파일 하나를 만�
 ```
 git pull 원격저장소주소
 ```
-
 이러면 원격저장소에 있던 모든 브랜치 내용을 가져와서 로컬저장소에 합치라는 뜻입니다.
-
 이걸 해주면 로컬이 원격저장소 내용을 반영한 최신상태가 되기 때문에 이제 git push가 가능합니다.
-
-결론은 변동사항이 생겼다면 git pull 하고 나서 git push 하면 됩니다.
+**결론은 변동사항이 생겼다면 git pull 하고 나서 git push 하면 됩니다.**
 
 (참고)
-
 - git pull 원격저장소주소 브랜치명 입력하면 특정 브랜치만 가져올 수 있습니다. 
-
 - origin이라는 변수명을 등록해놨으면 당연히 사용가능
-
 - 예전에 -u 했었으면 git pull, git push까지만 입력해도 잘됩니다.
 
 > **참고사항 : git pull 명령어는 git fetch + git merge 축약어임** 
