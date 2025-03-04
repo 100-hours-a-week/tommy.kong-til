@@ -1,3 +1,4 @@
+#git #ci/cd
 # 1. Git 기초 : add, commit
 
 코드 짜다가 실수해서 2일 전으로 돌아가고 싶으면 어쩌죠? 
@@ -325,8 +326,8 @@ git branch -D 브랜치이름
 ```
 
 둘 중 하나 사용하면 이제 필요없는 브랜치를 삭제할 수 있습니다. 
-병합이 완료된 브랜치 삭제시엔 -d 이것만 해도 되는데
-병합하지 않은 브랜치 삭제시엔 -D 이거 해야함 
+**병합이 완료된 브랜치 삭제시엔 -d 이것만 해도 되는데**
+**병합하지 않은 브랜치 삭제시엔 -D 이거 해야함** 
 심심하면 저번에 만든 coupon 브랜치 삭제하고 어떻게 보이는지 확인해봅시다.
 
 > **rebase and merge** 
@@ -365,43 +366,29 @@ rebase & merge를 한 줄로 쉽게 비유하자면 **강제 fast-forward merge
 브랜치끼리 차이가 너무 많은 경우 rebase하면 충돌이 많이 발생할 수 있는데 그거 하나하나 해결하기 귀찮습니다. 
 
 > **squash and merge 하는 경우도 있음**
-
 님들 대충 모든 브랜치를 3-way merge 해버리면 나중에 참사가 일어날 수 있습니다. 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/20151116_merge.png)
 
 왜냐면 
-
 (1) 3-way merge 된 것들은 매우 복잡해보임 
-
 (2) main 브랜치 git log 출력해보면 3-way merge된 브랜치들의 commit 내역도 다 같이 출력되어서 더러워짐 
 
 이런 현상이 있습니다. 
-
 그러기 싫으면 rebase 아니면 squash and merge 하면 됩니다. 
-
 그거 쓰면 새로운 브랜치에 있던 commit 들을 연결해주는게 아니라 똑 떼와서 main 브랜치에 붙여주기 때문에
-
 1번과 2번걱정을 안해도 됩니다. 
-
 rebase는 아까 배웠고
-
-squash and merge 이거 하면 어떻게 되냐면
-
+**squash and merge** 이거 하면 어떻게 되냐면
 3-way merge처럼 선으로 이어주지 않고
-
-새 브랜치에 있던 코드변경사항들이 **main 브랜치로** **텔레포트**합니다. 
+**새 브랜치에 있던 코드변경사항들이 main 브랜치로 텔레포트합니다.** 
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC2.png)
 
 그럼 이제 main 브랜치의 git log 출력해볼 때
-
 merge 완료된 브랜치의 commit 같은 것들은 출력되지 않습니다. 
-
 그게 왜 좋은거냐고요? 
-
 이런건 님들이 직접 해봐야 체감이 되는 것이기 때문에 3-way merge 많이 해보든가 하십시오. 
-
 ```
 git switch main
 git merge --squash 브랜치명
@@ -409,57 +396,31 @@ git commit -m '메세지'
 ```
 
 squash and merge 하는 법은 그냥 --squash 옵션을 추가하면 끝입니다. 
-
 님들이 브랜치에서 만들어놨던 많은 commit 을 다 합쳐서
-
 하나의 commit으로 main 브랜치에 생성해줍니다.
-
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/merge5.png)
-
 ▲ 그냥 merge 했을 경우
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/merge4.png)
-
 ▲ merge --squash 했을 경우 
 
 결과는 둘 다 똑같은데 한 놈은 선으로 이어져있고 한 놈은 텔레포트했을 뿐입니다. 
 
 결론은 :
-
-브랜치 100개 만들어놨는데 일반 merge를 잔뜩 해놓으면 나중에 git log 그래프가 매우 복잡해질 수 있습니다.
-
-그게 싫으면 squash 해보십시오. 또는 rebase 해도 마찬가지로 해결가능합니다. 
-
+**브랜치 100개 만들어놨는데 일반 merge를 잔뜩 해놓으면 나중에 git log 그래프가 매우 복잡해질 수 있습니다.**
+**그게 싫으면 squash 해보십시오. 또는 rebase 해도 마찬가지로 해결가능합니다.** 
 > **어떻게 merge 할 지 판단하기 힘들어요**
 
 초보땐 squash 할지 말지 고민하지 말고 대충하십시오.
-
-나중에 코딩노예로 취직하면 중요한 브랜치마다 merge 방법 가이드라인이 있습니다. 
-
-![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/%EB%94%B0%EB%B4%89_%ED%8C%80%EC%9B%901.png)
-
+나중에 코딩노예로 취직하면 중요한 브랜치마다 merge 방법 가이드라인이 있습니다.
 그런거 없으면 퇴사 ㄱ
-
 아니면 기준같은걸 하나 만들어두면 좋습니다. 
-
-**오늘의 숙제 :**
-
-1. 브랜치 새로 하나 만들어서 commit 몇번 한 다음 main 브랜치에 squash and merge 해보십시오.
-
-2. 브랜치 새로 하나 만들어서 commit 몇번 한 다음 main 브랜치로 rebase and merge 해보십시오. 
-
-3. 잘 합쳐져서 이제 쓸모없어진 브랜치는 제거해봅시다.
-
 # 5. 코드짜다가 실수했다 되돌아가자 (git revert, reset, restore)
 
 commit만 주구장창 하는 사람들이 있는데 
-
 git은 버전관리 프로그램이기 때문에 
-
 언제든지 이전 commit으로 되돌아가거나
-
 문제가 되는 commit 내역을 취소하거나 그럴 수 있습니다. 
-
 git restore / git revert / git reset 명령어써서 파일 복구하는 법을 알아봅시다. 
 
 각각 파일하나 복구, commit 복구, 시간되돌리기가 가능합니다. 
