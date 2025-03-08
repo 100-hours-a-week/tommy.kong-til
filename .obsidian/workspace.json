@@ -117,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -235,7 +236,7 @@
       "translate:Open translation view": false
     }
   },
-  "active": "4532e00e1e7c81ae",
+  "active": "f0c74f363f1f37c4",
   "lastOpenFiles": [
     "March/03_04(화).md",
     "March/streamlit",
