@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "March/03_04(화).md",
+                "file": "March/03_08(토).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03_04(화)"
+              "title": "03_08(토)"
             }
           }
         ],
@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "March/03_04(화).md",
+                "file": "March/03_08(토).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03_04(화)"
+              "title": "Outline of 03_08(토)"
             }
           },
           {
@@ -211,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -235,8 +235,9 @@
       "translate:Open translation view": false
     }
   },
-  "active": "f0c74f363f1f37c4",
+  "active": "4532e00e1e7c81ae",
   "lastOpenFiles": [
+    "March/03_04(화).md",
     "March/streamlit",
     "March/03_08(토).md",
     "images/hyperparameters.csv",
@@ -244,7 +245,6 @@
     "Git 정리.md",
     "images/Pasted image 20250306111737.png",
     "CLI 명령어 정리.md",
-    "March/03_04(화).md",
     "March/6wk_challenge.ipynb",
     "March/6wk_miniquest.ipynb",
     "March/6wk_chllenge.ipynb",
@@ -259,7 +259,6 @@
     "zotero/My Library.json",
     "zotero",
     "March",
-    "Feb/4wk_challenge.ipynb",
     "Feb/02_18(화).md",
     "Feb/02_19(수).md",
     "images/Pasted image 20250219104124.png",
