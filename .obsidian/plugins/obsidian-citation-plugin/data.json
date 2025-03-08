@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "csl-json",
+  "literatureNoteTitleTemplate": "{{title}}, {{authorString}}",
+  "literatureNoteFolder": "Zotero",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\npublisher : {{publisher}}\n---\n#Summary\n{{abstract}}\n#서지\n[Go to Zotero]({{zoteroSelectURI}})\n",
+  "markdownCitationTemplate": "{{title}}, {{authorString}}[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "/Users/tommykong/Library/Mobile Documents/com~apple~CloudDocs/til/Zotero/My Library.json"
+}

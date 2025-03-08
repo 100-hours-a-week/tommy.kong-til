@@ -1,0 +1,14 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "#2d86fb",
+  "textFontFamily": "RIDIBatang",
+  "monospaceFontFamily": "D2Coding ligature",
+  "interfaceFontFamily": "Noto Sans KR",
+  "baseFontSize": 17,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "color_extended",
+    "order"
+  ],
+  "theme": "moonstone"
+}
