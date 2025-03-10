@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5918e3ee4f4383f4",
+        "id": "888dab7105f841aa",
         "type": "tabs",
         "children": [
           {
-            "id": "7d27fdb5915e9fb1",
+            "id": "7ab09051b30d5a4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "03_10(월)"
             }
-          },
-          {
-            "id": "390d9e6ddb5bd417",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-10 09.43.51.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md",
+                "file": "March/03_10(월).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2025-03-10 09.43.51.excalidraw"
+              "title": "Outline of 03_10(월)"
             }
           },
           {
@@ -231,10 +218,13 @@
       "translate:Open translation view": false
     }
   },
-  "active": "390d9e6ddb5bd417",
+  "active": "7ab09051b30d5a4e",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-10 09.46.14.excalidraw.md",
     "March/03_10(월).md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md",
     "Excalidraw/Drawing 2025-03-10 09.31.29.excalidraw.md",
     "March/Untitled.md",
     "Git 정리.md",
@@ -276,7 +266,6 @@
     "Feb/02_12(수).md",
     "Feb/02_10(월).md",
     "Feb/02_13(토).md",
-    "Feb/02_07(금).md",
     "Feb/image-3.png"
   ]
 }
