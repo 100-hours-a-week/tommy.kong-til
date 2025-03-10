@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d4fc701c92cc9812",
+        "id": "5918e3ee4f4383f4",
         "type": "tabs",
         "children": [
           {
-            "id": "9c55e86b7b99e3fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git 정리.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git 정리"
-            }
-          },
-          {
-            "id": "ab81ef7e53b5beb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLI 명령어 정리.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CLI 명령어 정리"
-            }
-          },
-          {
-            "id": "f0c74f363f1f37c4",
+            "id": "7d27fdb5915e9fb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,19 +22,19 @@
             }
           },
           {
-            "id": "be8ceec11f65fc9d",
+            "id": "390d9e6ddb5bd417",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md"
+                "file": "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-10 09.33.06.excalidraw"
+              "title": "Drawing 2025-03-10 09.43.51.excalidraw"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md",
+                "file": "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2025-03-10 09.33.06.excalidraw"
+              "title": "Outline of Drawing 2025-03-10 09.43.51.excalidraw"
             }
           },
           {
@@ -259,20 +231,23 @@
       "translate:Open translation view": false
     }
   },
-  "active": "be8ceec11f65fc9d",
+  "active": "390d9e6ddb5bd417",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md",
     "March/03_10(월).md",
-    "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md",
     "Excalidraw/Drawing 2025-03-10 09.31.29.excalidraw.md",
+    "March/Untitled.md",
+    "Git 정리.md",
+    "Excalidraw/Drawing 2025-03-10 09.36.13.excalidraw.md",
+    "CLI 명령어 정리.md",
+    "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md",
     "images/Pasted image 20250310092026.png",
     "March/03_08(토).md",
     "March/03_04(화).md",
     "March/streamlit",
     "images/hyperparameters.csv",
     "March/03_06(목).md",
-    "Git 정리.md",
     "images/Pasted image 20250306111737.png",
-    "CLI 명령어 정리.md",
     "March/6wk_challenge.ipynb",
     "March/6wk_miniquest.ipynb",
     "March/6wk_chllenge.ipynb",
@@ -302,9 +277,6 @@
     "Feb/02_10(월).md",
     "Feb/02_13(토).md",
     "Feb/02_07(금).md",
-    "Feb/02-08(토)_.md",
-    "Feb/02-08(토).md",
-    "Feb/image-3.png",
-    "Feb/02-04(화).md"
+    "Feb/image-3.png"
   ]
 }
