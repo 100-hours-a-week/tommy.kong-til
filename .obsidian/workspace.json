@@ -193,12 +193,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 521,
-    "collapsed": true
+    "width": 521
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,7 +217,7 @@
       "translate:Open translation view": false
     }
   },
-  "active": "7ab09051b30d5a4e",
+  "active": "4532e00e1e7c81ae",
   "lastOpenFiles": [
     "images/Pasted image 20250310104331.png",
     "images/Pasted image 20250310103342.png",
