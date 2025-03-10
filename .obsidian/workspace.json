@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "03_10(월)"
             }
+          },
+          {
+            "id": "be8ceec11f65fc9d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-10 09.33.06.excalidraw"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "March/03_10(월).md",
+                "file": "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03_10(월)"
+              "title": "Outline of Drawing 2025-03-10 09.33.06.excalidraw"
             }
           },
           {
@@ -210,9 +222,19 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "4b03fab6a1cf920a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -237,11 +259,13 @@
       "translate:Open translation view": false
     }
   },
-  "active": "f0c74f363f1f37c4",
+  "active": "be8ceec11f65fc9d",
   "lastOpenFiles": [
+    "March/03_10(월).md",
+    "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-10 09.31.29.excalidraw.md",
     "images/Pasted image 20250310092026.png",
     "March/03_08(토).md",
-    "March/03_10(월).md",
     "March/03_04(화).md",
     "March/streamlit",
     "images/hyperparameters.csv",
@@ -281,7 +305,6 @@
     "Feb/02-08(토)_.md",
     "Feb/02-08(토).md",
     "Feb/image-3.png",
-    "Feb/02-04(화).md",
-    "Excalidraw/Drawing 2025-02-13 10.53.13.excalidraw.md"
+    "Feb/02-04(화).md"
   ]
 }
