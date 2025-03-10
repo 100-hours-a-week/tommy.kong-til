@@ -197,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 521
+    "width": 521,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,6 +220,8 @@
   },
   "active": "7ab09051b30d5a4e",
   "lastOpenFiles": [
+    "images/Pasted image 20250310111403.png",
+    "images/Pasted image 20250310110615.png",
     "images/Pasted image 20250310110523.png",
     "images/Pasted image 20250310104331.png",
     "images/Pasted image 20250310103342.png",
@@ -261,8 +264,6 @@
     "Feb/랭체인.md",
     "Feb/02_14(금).md",
     "images/Pasted image 20250214131600.png",
-    "images/Pasted image 20250214114712.png",
-    "images/Pasted image 20250214114650.png",
     "Feb/02_11(화).md",
     "Feb/02_13(목).md",
     "Feb/02_12(수).md",
