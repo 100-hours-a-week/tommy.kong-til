@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "March/03_11(화).md",
+                "file": "March/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03_11(화)"
-            }
-          },
-          {
-            "id": "2d14badfdc2e33fb",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "Untitled 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,10 +217,11 @@
       "translate:Open translation view": false
     }
   },
-  "active": "2d14badfdc2e33fb",
+  "active": "7ab09051b30d5a4e",
   "lastOpenFiles": [
-    "March/Attention is Everything.md",
     "March/03_11(화).md",
+    "March/Untitled 1.md",
+    "March/Attention is Everything.md",
     "March/RNN and LSTM.md",
     "March/GAN.md",
     "March/NLP 기초.md",
@@ -278,7 +266,6 @@
     "Feb/02_18(화).md",
     "Feb/02_19(수).md",
     "Feb/02_17(월).md",
-    "Feb/랭체인.md",
-    "Feb/02_14(금).md"
+    "Feb/랭체인.md"
   ]
 }
