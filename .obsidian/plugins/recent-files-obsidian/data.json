@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "3강 누적합",
+      "path": "코테 정리/3강 누적합.md"
+    },
+    {
+      "basename": "1강 완전탐색",
+      "path": "코테 정리/1강 완전탐색.md"
+    },
+    {
+      "basename": "0강. Python Input and Output",
+      "path": "코테 정리/0강. Python Input and Output.md"
+    },
+    {
       "basename": "Docker",
       "path": "Docker.md"
+    },
+    {
+      "basename": "02_15(토)",
+      "path": "Feb/02_15(토).md"
     },
     {
       "basename": "Untitled 1",
@@ -33,26 +49,6 @@
       "path": "March/03_10(월).md"
     },
     {
-      "basename": "Drawing 2025-03-10 09.46.14.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-10 09.46.14.excalidraw.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.canvas"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.canvas"
-    },
-    {
-      "basename": "Drawing 2025-03-10 09.43.51.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2025-03-10 09.31.29.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-10 09.31.29.excalidraw.md"
-    },
-    {
       "basename": "Untitled",
       "path": "March/Untitled.md"
     },
@@ -61,16 +57,8 @@
       "path": "Git 정리.md"
     },
     {
-      "basename": "Drawing 2025-03-10 09.36.13.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-10 09.36.13.excalidraw.md"
-    },
-    {
       "basename": "CLI 명령어 정리",
       "path": "CLI 명령어 정리.md"
-    },
-    {
-      "basename": "Drawing 2025-03-10 09.33.06.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md"
     },
     {
       "basename": "03_08(토)",
@@ -85,16 +73,8 @@
       "path": "March/03_06(목).md"
     },
     {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.md"
-    },
-    {
       "basename": "Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun",
       "path": "Zotero/Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.md"
-    },
-    {
-      "basename": "02_15(토)",
-      "path": "02_15(토).md"
     },
     {
       "basename": "02_18(화)",

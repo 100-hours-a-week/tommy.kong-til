@@ -4,49 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "888dab7105f841aa",
+        "id": "7cbd2324974901c6",
         "type": "tabs",
         "children": [
           {
-            "id": "7ab09051b30d5a4e",
+            "id": "49b5fdb98680dc7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "March/Untitled 1.md",
+                "file": "코테 정리/3강 누적합.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
-            "id": "78682d5fab629cc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Docker"
-            }
-          },
-          {
-            "id": "7e64e7b2a8cdc7a7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3강 누적합"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -242,9 +216,18 @@
       "translate:Open translation view": false
     }
   },
-  "active": "7e64e7b2a8cdc7a7",
+  "active": "49b5fdb98680dc7a",
   "lastOpenFiles": [
+    "코테 정리/1강 완전탐색.md",
+    "코테 정리/3강 누적합.md",
+    "코테 정리/0강. Python Input and Output.md",
+    "코테 정리",
+    "Untitled.md",
     "Docker.md",
+    "Feb/02_15(토).md",
+    "Untitled.canvas",
+    "Untitled 1.md",
+    "Excalidraw/Drawing 2025-03-10 09.31.29.excalidraw.md",
     "March/Untitled 1.md",
     "March/03_11(화).md",
     "March/Attention is Everything.md",
@@ -264,9 +247,7 @@
     "images/Pasted image 20250310113015.png",
     "Excalidraw/Drawing 2025-03-10 09.46.14.excalidraw.md",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "Excalidraw/Drawing 2025-03-10 09.43.51.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-10 09.31.29.excalidraw.md",
     "March/Untitled.md",
     "Git 정리.md",
     "Excalidraw/Drawing 2025-03-10 09.36.13.excalidraw.md",
@@ -280,17 +261,10 @@
     "March/6wk_challenge.ipynb",
     "March/6wk_miniquest.ipynb",
     "March/6wk_chllenge.ipynb",
-    "Untitled 1.md",
     "Zotero/Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.md",
-    "Zotero/Large language models are better than theoretical linguists at theoretical linguistics, Ben Ambridge, Liam Blything.md",
-    "02_15(토).md",
     "Zotero/My Library.json",
     "Zotero",
     "zotero/My Library.json",
-    "zotero",
-    "March",
-    "Feb/02_18(화).md",
-    "Feb/02_19(수).md",
-    "Feb/02_17(월).md"
+    "zotero"
   ]
 }
