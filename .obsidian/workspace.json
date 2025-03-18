@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc7d3766220a4bcd",
+            "id": "1e4c8d2b9770c3cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코테 정리/4강 완전탐색(재귀, 백트래킹).md",
+                "file": "March/03_18(화).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4강 완전탐색(재귀, 백트래킹)"
+              "title": "03_18(화)"
             }
           }
         ]
@@ -217,8 +217,10 @@
       "translate:Open translation view": false
     }
   },
-  "active": "dc7d3766220a4bcd",
+  "active": "1e4c8d2b9770c3cb",
   "lastOpenFiles": [
+    "March/개인 프로젝트.md",
+    "March/03_18(화).md",
     "코테 정리/4강 완전탐색(재귀, 백트래킹).md",
     "코테 정리/3강 누적합.md",
     "코테 정리/1강 완전탐색.md",
@@ -256,10 +258,8 @@
     "CLI 명령어 정리.md",
     "Excalidraw/Drawing 2025-03-10 09.33.06.excalidraw.md",
     "March/03_08(토).md",
-    "March/03_04(화).md",
     "March/streamlit",
     "images/hyperparameters.csv",
-    "March/03_06(목).md",
     "March/6wk_challenge.ipynb",
     "March/6wk_miniquest.ipynb",
     "March/6wk_chllenge.ipynb",
