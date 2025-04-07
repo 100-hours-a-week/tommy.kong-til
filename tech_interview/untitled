@@ -1,0 +1,16 @@
+# 04_01
+# Chap 1 프로그래밍
+## 형상 관리 도구 
+
+- Git을 생각하면 됨 => 분산식 버전 관리 시스템 
+- 변경 이력 추적, 여러 작업자 충돌을 방지, 백업 기능 
+- 용어
+	- DVCS(Distributed Version Control System)
+	- CVS(Centralized Version Control System)
+	- Snapshot : 파일이나 디렉러티의 특정 시점의 상태를 의미 
+	- Checkout : 사용자가 서버로부터 특정 버전의 Snapshot을 받아오는 것
+
+## 컴파일과 인터프리터 언어 
+- 인터프리터 : python, javascript => 개발속도, 유지보수, 동적인 환경에서 장점 
+- 컴파일 : c++ => 실행속도, 메모리적인 부분에서 장점
+- 컴파일 과정 : 

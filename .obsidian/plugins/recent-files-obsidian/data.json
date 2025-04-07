@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "3장 네트워크",
+      "path": "tech_interview/3장 네트워크.md"
+    },
+    {
       "basename": "03_18(화)",
       "path": "March/03_18(화).md"
     },
@@ -11,22 +15,6 @@
     {
       "basename": "개인 프로젝트",
       "path": "March/개인 프로젝트.md"
-    },
-    {
-      "basename": "4강 완전탐색(재귀, 백트래킹)",
-      "path": "코테 정리/4강 완전탐색(재귀, 백트래킹).md"
-    },
-    {
-      "basename": "3강 누적합",
-      "path": "코테 정리/3강 누적합.md"
-    },
-    {
-      "basename": "1강 완전탐색",
-      "path": "코테 정리/1강 완전탐색.md"
-    },
-    {
-      "basename": "0강. Python Input and Output",
-      "path": "코테 정리/0강. Python Input and Output.md"
     },
     {
       "basename": "Docker",
