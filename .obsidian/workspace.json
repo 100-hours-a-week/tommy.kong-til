@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "3장 네트워크"
             }
+          },
+          {
+            "id": "59ec822283bd9610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech_interview/ai-tech-interview-main/answers/7-data-structure.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7-data-structure"
+            }
           }
         ]
       }
@@ -88,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -153,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "March/03_11(화).md",
+                "file": "tech_interview/book/3장 네트워크.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03_11(화)"
+              "title": "Outline of 3장 네트워크"
             }
           },
           {
@@ -193,12 +206,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 433,
-    "collapsed": true
+    "width": 433
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,13 +231,20 @@
   },
   "active": "601b33c4d3246192",
   "lastOpenFiles": [
+    "tech_interview/ai-tech-interview-main/answers/7-data-structure.md",
     "tech_interview/ai-tech-interview-main/answers/1-statistics-math.md",
+    "tech_interview/ai-tech-interview-main/answers/statistics-math-distribution.md",
+    "tech_interview/ai-tech-interview-main/answers/6-operating-system.md",
+    "tech_interview/ai-tech-interview-main/answers/8-algorithm.md",
+    "tech_interview/ai-tech-interview-main/answers/5-network.md",
+    "tech_interview/ai-tech-interview-main/answers/4-python.md",
+    "tech_interview/ai-tech-interview-main/answers/2-machine-learning.md",
+    "tech_interview/ai-tech-interview-main/answers/3-deep-learning.md",
+    "tech_interview/ai-tech-interview-main/README.md",
+    "tech_interview/ai-tech-interview-main/SUMMARY.md",
     "tech_interview/book/3장 네트워크.md",
     "images/Pasted image 20250407113830.png",
     "images/Pasted image 20250407110227.png",
-    "tech_interview/ai-tech-interview-main/answers/5-network.md",
-    "tech_interview/ai-tech-interview-main/answers/7-data-structure.md",
-    "tech_interview/ai-tech-interview-main/answers/6-operating-system.md",
     "coding_test/problem/README.md",
     "tech_interview/3장 네트워크.md",
     "tech_interview/book/Untitled.md",
@@ -234,9 +253,6 @@
     "tech_interview/book",
     "tech_interview/untitled folder",
     "tech_interview/ai-tech-interview-main/logo.png",
-    "tech_interview/ai-tech-interview-main/README.md",
-    "tech_interview/ai-tech-interview-main/SUMMARY.md",
-    "tech_interview/ai-tech-interview-main/answers/statistics-math-distribution.md",
     "tech_interview/ai-tech-interview-main/answers/img/5-network/web-socket.png",
     "tech_interview/ai-tech-interview-main/answers/img/5-network/uri.png",
     "tech_interview/ai-tech-interview-main/answers/img/5-network/udp-segment.png",
@@ -251,10 +267,6 @@
     "tech_interview/ai-tech-interview-main/answers/img/1-statistics-math",
     "tech_interview/ai-tech-interview-main/answers/img/4-python",
     "tech_interview/ai-tech-interview-main/answers/img/7-data-structure",
-    "tech_interview/ai-tech-interview-main/answers/8-algorithm.md",
-    "tech_interview/ai-tech-interview-main/answers/4-python.md",
-    "tech_interview/ai-tech-interview-main/answers/3-deep-learning.md",
-    "tech_interview/ai-tech-interview-main/answers/2-machine-learning.md",
     "Git 정리.md",
     "tech_interview/README.md",
     "tech_interview/Untitled.md",
