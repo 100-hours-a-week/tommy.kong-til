@@ -2,7 +2,23 @@
   "recentFiles": [
     {
       "basename": "3장 네트워크",
-      "path": "tech_interview/3장 네트워크.md"
+      "path": "tech_interview/book/3장 네트워크.md"
+    },
+    {
+      "basename": "5-network",
+      "path": "tech_interview/ai-tech-interview-main/answers/5-network.md"
+    },
+    {
+      "basename": "7-data-structure",
+      "path": "tech_interview/ai-tech-interview-main/answers/7-data-structure.md"
+    },
+    {
+      "basename": "6-operating-system",
+      "path": "tech_interview/ai-tech-interview-main/answers/6-operating-system.md"
+    },
+    {
+      "basename": "1-statistics-math",
+      "path": "tech_interview/ai-tech-interview-main/answers/1-statistics-math.md"
     },
     {
       "basename": "README",
@@ -13,16 +29,8 @@
       "path": "Git 정리.md"
     },
     {
-      "basename": "Untitled",
-      "path": "tech_interview/Untitled.md"
-    },
-    {
       "basename": "Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun",
       "path": "Zotero/Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.md"
-    },
-    {
-      "basename": "README 1",
-      "path": "tech_interview/README 1.md"
     },
     {
       "basename": "README",
