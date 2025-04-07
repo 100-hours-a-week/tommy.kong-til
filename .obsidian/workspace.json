@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech_interview/3장 네트워크.md",
+                "file": "coding_test/problem/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3장 네트워크"
+              "title": "README"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -219,6 +218,16 @@
   },
   "active": "12d5c30711daa02c",
   "lastOpenFiles": [
+    "Git 정리.md",
+    "tech_interview/README.md",
+    "tech_interview/3장 네트워크.md",
+    "tech_interview/Untitled.md",
+    "Zotero/Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.md",
+    "tech_interview/README 1.md",
+    "coding_test/problem/README.md",
+    "coding_test/README.md",
+    "tech_interview/untitled",
+    "tech_interview",
     "coding_test/lecture/4강 완전탐색(재귀, 백트래킹).md",
     "coding_test/lecture/3강 누적합.md",
     "coding_test/lecture/1강 완전탐색.md",
@@ -227,33 +236,24 @@
     "coding_test/problem/웰컴_키트.py",
     "coding_test/problem/영화감독_숌.py",
     "coding_test/problem/소수_찾기.py",
-    "coding_test/problem/README.md",
     "coding_test/problem/03_로그파일재정렬.py",
     "coding_test/problem/02_문자열 뒤집기.py",
     "coding_test/problem/01_유효한 팰린드롬.py",
     "coding_test/problem",
-    "coding_test/gitignore",
-    "coding_test/README.md",
-    "coding_test",
     "coding_test/lecture copy/3강 누적합.md",
     "coding_test/lecture copy/4강 완전탐색(재귀, 백트래킹).md",
     "coding_test/lecture copy/1강 완전탐색.md",
     "coding_test/lecture copy/0강. Python Input and Output.md",
     "coding_test/problem copy/README.md",
     "인터뷰 정리/3장 네트워크.md",
-    "tech_interview/README.md",
-    "tech_interview/Untitled.md",
     "coding_test/4강 완전탐색(재귀, 백트래킹).md",
     "coding_test/3강 누적합.md",
     "coding_test/1강 완전탐색.md",
     "coding_test/0강. Python Input and Output.md",
-    "tech_interview/3장 네트워크.md",
     "코테 정리/0강. Python Input and Output.md",
     "코테 정리/1강 완전탐색.md",
     "Untitled.md",
     "March/03_18(화).md",
-    "March/03_19(수).md",
-    "March/개인 프로젝트.md",
     "images/Pasted image 20250318142028.png",
     "images/Pasted image 20250318141953.png",
     "images/Pasted image 20250318141545.png",
