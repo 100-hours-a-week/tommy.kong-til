@@ -5,6 +5,10 @@
       "path": "tech_interview/book/3장 네트워크.md"
     },
     {
+      "basename": "1-statistics-math",
+      "path": "tech_interview/ai-tech-interview-main/answers/1-statistics-math.md"
+    },
+    {
       "basename": "5-network",
       "path": "tech_interview/ai-tech-interview-main/answers/5-network.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "6-operating-system",
       "path": "tech_interview/ai-tech-interview-main/answers/6-operating-system.md"
-    },
-    {
-      "basename": "1-statistics-math",
-      "path": "tech_interview/ai-tech-interview-main/answers/1-statistics-math.md"
     },
     {
       "basename": "README",
