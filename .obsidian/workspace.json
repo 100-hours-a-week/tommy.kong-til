@@ -22,16 +22,6 @@
             }
           },
           {
-            "id": "fafdd3873687d569",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "59ec822283bd9610",
             "type": "leaf",
             "state": {
@@ -45,8 +35,7 @@
               "title": "7-data-structure"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "tech_interview/book/3장 네트워크.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 3장 네트워크"
             }
           },
           {
@@ -239,7 +229,7 @@
       "translate:Open translation view": false
     }
   },
-  "active": "fafdd3873687d569",
+  "active": "601b33c4d3246192",
   "lastOpenFiles": [
     "coding_test/problem/집합.py",
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/31-2.py",
