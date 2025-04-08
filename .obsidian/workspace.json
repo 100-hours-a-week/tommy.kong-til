@@ -22,6 +22,16 @@
             }
           },
           {
+            "id": "5dddd4ab6fbf5fbe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
             "id": "59ec822283bd9610",
             "type": "leaf",
             "state": {
@@ -35,7 +45,8 @@
               "title": "7-data-structure"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,13 +177,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech_interview/book/3장 네트워크.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3장 네트워크"
+              "title": "Outline"
             }
           },
           {
@@ -229,8 +239,9 @@
       "translate:Open translation view": false
     }
   },
-  "active": "601b33c4d3246192",
+  "active": "5dddd4ab6fbf5fbe",
   "lastOpenFiles": [
+    "tech_interview/book/3장 네트워크.md",
     "coding_test/problem/집합.py",
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/31-2.py",
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/31-1.py",
@@ -241,9 +252,7 @@
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/29-1.py",
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/28-1.py",
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch10/27-1.py",
-    "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch10/26-1.py",
     "coding_test/problem/python-algorithm-interview-master/README.md",
-    "tech_interview/book/3장 네트워크.md",
     "tech_interview/ai-tech-interview-main/answers/7-data-structure.md",
     "tech_interview/ai-tech-interview-main/answers/1-statistics-math.md",
     "tech_interview/ai-tech-interview-main/answers/statistics-math-distribution.md",
