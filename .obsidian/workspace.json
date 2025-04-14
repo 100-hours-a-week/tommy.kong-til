@@ -25,10 +25,14 @@
             "id": "5dddd4ab6fbf5fbe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "tech_interview/4장 보안.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "4장 보안"
             }
           },
           {
@@ -113,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -177,12 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "tech_interview/4장 보안.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 4장 보안"
             }
           },
           {
@@ -220,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433
+    "width": 433,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,6 +248,9 @@
   },
   "active": "5dddd4ab6fbf5fbe",
   "lastOpenFiles": [
+    "coding_test/problem/\b08_빗물트래핑.py",
+    "coding_test/problem/\b08_",
+    "tech_interview/4장 보안.md",
     "tech_interview/book/3장 네트워크.md",
     "coding_test/problem/집합.py",
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/31-2.py",
@@ -251,7 +261,6 @@
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/29-2.py",
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/29-1.py",
     "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch11/28-1.py",
-    "coding_test/problem/python-algorithm-interview-master/3-linear-data-structures/ch10/27-1.py",
     "coding_test/problem/python-algorithm-interview-master/README.md",
     "tech_interview/ai-tech-interview-main/answers/7-data-structure.md",
     "tech_interview/ai-tech-interview-main/answers/1-statistics-math.md",
@@ -280,7 +289,6 @@
     "tech_interview/ai-tech-interview-main/answers/img/5-network/routing.png",
     "Git 정리.md",
     "tech_interview/README.md",
-    "tech_interview/Untitled.md",
     "Zotero/Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.md",
     "tech_interview/README 1.md",
     "coding_test/README.md",
