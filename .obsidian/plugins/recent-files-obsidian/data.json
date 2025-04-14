@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "5-network",
+      "path": "tech_interview/ai-tech-interview-main/answers/5-network.md"
+    },
+    {
+      "basename": "6-operating-system",
+      "path": "tech_interview/ai-tech-interview-main/answers/6-operating-system.md"
+    },
+    {
+      "basename": "statistics-math-distribution",
+      "path": "tech_interview/ai-tech-interview-main/answers/statistics-math-distribution.md"
+    },
+    {
+      "basename": "8-algorithm",
+      "path": "tech_interview/ai-tech-interview-main/answers/8-algorithm.md"
+    },
+    {
+      "basename": "7-data-structure",
+      "path": "tech_interview/ai-tech-interview-main/answers/7-data-structure.md"
+    },
+    {
+      "basename": "3-deep-learning",
+      "path": "tech_interview/ai-tech-interview-main/answers/3-deep-learning.md"
+    },
+    {
+      "basename": "1-statistics-math",
+      "path": "tech_interview/ai-tech-interview-main/answers/1-statistics-math.md"
+    },
+    {
+      "basename": "4-python",
+      "path": "tech_interview/ai-tech-interview-main/answers/4-python.md"
+    },
+    {
+      "basename": "array-type",
+      "path": "tech_interview/ai-tech-interview-main/answers/img/4-python/array-type.png"
+    },
+    {
       "basename": "4장 보안",
       "path": "tech_interview/4장 보안.md"
     },
@@ -9,40 +45,8 @@
       "path": "tech_interview/book/3장 네트워크.md"
     },
     {
-      "basename": "7-data-structure",
-      "path": "tech_interview/ai-tech-interview-main/answers/7-data-structure.md"
-    },
-    {
-      "basename": "1-statistics-math",
-      "path": "tech_interview/ai-tech-interview-main/answers/1-statistics-math.md"
-    },
-    {
-      "basename": "statistics-math-distribution",
-      "path": "tech_interview/ai-tech-interview-main/answers/statistics-math-distribution.md"
-    },
-    {
-      "basename": "6-operating-system",
-      "path": "tech_interview/ai-tech-interview-main/answers/6-operating-system.md"
-    },
-    {
-      "basename": "8-algorithm",
-      "path": "tech_interview/ai-tech-interview-main/answers/8-algorithm.md"
-    },
-    {
-      "basename": "5-network",
-      "path": "tech_interview/ai-tech-interview-main/answers/5-network.md"
-    },
-    {
-      "basename": "4-python",
-      "path": "tech_interview/ai-tech-interview-main/answers/4-python.md"
-    },
-    {
       "basename": "2-machine-learning",
       "path": "tech_interview/ai-tech-interview-main/answers/2-machine-learning.md"
-    },
-    {
-      "basename": "3-deep-learning",
-      "path": "tech_interview/ai-tech-interview-main/answers/3-deep-learning.md"
     },
     {
       "basename": "README",
