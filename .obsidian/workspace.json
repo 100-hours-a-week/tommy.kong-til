@@ -11,10 +11,14 @@
             "id": "4003e96ebd1cded3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "tech_interview/5장 React.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "5장 React"
             }
           }
         ]
@@ -84,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -214,6 +219,7 @@
   },
   "active": "4003e96ebd1cded3",
   "lastOpenFiles": [
+    "tech_interview/5장 React.md",
     "tech_interview/5장 HTML _ CSS.md",
     "tech_interview/book/4장 보안.md",
     "tech_interview/ai-tech-interview-main/answers/5-network.md",
@@ -259,7 +265,6 @@
     "tech_interview/README 1.md",
     "coding_test/README.md",
     "coding_test/lecture/4강 완전탐색(재귀, 백트래킹).md",
-    "coding_test/lecture/3강 누적합.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
