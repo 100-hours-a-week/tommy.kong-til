@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5dddd4ab6fbf5fbe",
+            "id": "4003e96ebd1cded3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech_interview/5장 HTML _ CSS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "5장 HTML _ CSS"
+              "title": "New tab"
             }
           }
         ]
@@ -88,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "785dbf858b16ddbd",
@@ -217,10 +212,10 @@
       "translate:Open translation view": false
     }
   },
-  "active": "5dddd4ab6fbf5fbe",
+  "active": "4003e96ebd1cded3",
   "lastOpenFiles": [
-    "tech_interview/book/4장 보안.md",
     "tech_interview/5장 HTML _ CSS.md",
+    "tech_interview/book/4장 보안.md",
     "tech_interview/ai-tech-interview-main/answers/5-network.md",
     "tech_interview/ai-tech-interview-main/answers/6-operating-system.md",
     "tech_interview/ai-tech-interview-main/answers/statistics-math-distribution.md",
