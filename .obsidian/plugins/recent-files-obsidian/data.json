@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "암호화 & 보안",
+      "path": "tech_interview/암호화 & 보안.md"
+    },
+    {
       "basename": "5장 React",
       "path": "tech_interview/5장 React.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "image-3",
       "path": "Feb/image-3.png"
-    },
-    {
-      "basename": "02-04(화)",
-      "path": "Feb/02-04(화).md"
     }
   ],
   "omittedPaths": [],
