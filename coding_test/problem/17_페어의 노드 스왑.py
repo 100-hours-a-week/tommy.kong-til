@@ -1,15 +1,3 @@
-#
-# @lc app=leetcode id=24 lang=python3
-#
-# [24] Swap Nodes in Pairs
-#
-
-# @lc code=start
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 class Solution:
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head == None:
@@ -67,6 +55,3 @@ class Solution:
 # p=2의 next는 head=1이 됨
 # 반환: p=2 (즉 2->1->4->3->null)
 # 결과: 2->1->4->3
-
-
-# @lc code=end
