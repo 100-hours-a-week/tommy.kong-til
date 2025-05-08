@@ -1,27 +1,19 @@
-# ------------------------
-# macOS 시스템 파일 무시
-# ------------------------
+# ─────────────────────────────
+# macOS 시스템 파일
+# ─────────────────────────────
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# 썸네일 캐시
 ._*
-
-# Spotlight 파일
 .Spotlight-V100
-
-# Trash 폴더
 .Trashes
-
-# macOS에서 생성되는 메타데이터
 Icon?
 ehthumbs.db
 Thumbs.db
 
-# ------------------------
-# Python 관련 무시 파일
-# ------------------------
+# ─────────────────────────────
+# Python 관련
+# ─────────────────────────────
 __pycache__/
 *.py[cod]
 *.pyo
@@ -35,48 +27,55 @@ env/
 venv/
 .venv/
 ENV/
-.env/
+.env
 .env.*
 
-# 패키지 관련 파일
+# 패키징
 *.egg-info/
 .eggs/
 *.egg
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Jupyter 노트북 체크포인트
+# Jupyter
 .ipynb_checkpoints/
 
-# PyInstaller 빌드 아티팩트
+# PyInstaller
 dist/
 build/
 *.spec
 
-# Cython 빌드
+# Cython
 *.c
 *.so
 
-# ------------------------
-# Markdown 관련 무시 파일
-# ------------------------
+# ─────────────────────────────
+# Markdown 관련
+# ─────────────────────────────
 
-# VS Code markdown preview 저장파일 (확장기능)
+# VS Code markdown preview
 *.md.pdf
 *.md.html
 
-# MkDocs 빌드 디렉토리
+# MkDocs
 /site
 
-# ------------------------
-# 기타 IDE 및 툴 관련
-# ------------------------
-
-# VSCode
+# ─────────────────────────────
+# IDE 설정 파일
+# ─────────────────────────────
 .vscode/
-
-# PyCharm
 .idea/
-
-# 기타 로그
 *.log
+
+# ─────────────────────────────
+# Obsidian Vault 사용자 정의 제외
+# ─────────────────────────────
+.obsidian/
+assets/
+Excaldraw/
+Fonts/
+report/
+Zotero/
+삭제파일/
+.makemd/
+.space/
