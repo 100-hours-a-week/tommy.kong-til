@@ -22,7 +22,7 @@ __pycache__/
 *.db
 *.sqlite3
 
-# 가상환경
+# 가상환경 및 환경변수 파일
 env/
 venv/
 .venv/
@@ -30,17 +30,12 @@ ENV/
 .env
 .env.*
 
-# 패키징
+# 패키지, 빌드 관련
 *.egg-info/
 .eggs/
 *.egg
 pip-log.txt
 pip-delete-this-directory.txt
-
-# Jupyter
-.ipynb_checkpoints/
-
-# PyInstaller
 dist/
 build/
 *.spec
@@ -49,33 +44,42 @@ build/
 *.c
 *.so
 
-# ─────────────────────────────
-# Markdown 관련
-# ─────────────────────────────
+# Jupyter 체크포인트
+.ipynb_checkpoints/
 
-# VS Code markdown preview
+# ─────────────────────────────
+# Markdown / 문서 관련
+# ─────────────────────────────
 *.md.pdf
 *.md.html
 
-# MkDocs
+# MkDocs 결과물
 /site
 
 # ─────────────────────────────
-# IDE 설정 파일
+# IDE 설정 및 로그 파일
 # ─────────────────────────────
 .vscode/
 .idea/
 *.log
 
 # ─────────────────────────────
-# Obsidian Vault 사용자 정의 제외
+# Obsidian Vault: 제외 폴더 및 데이터
 # ─────────────────────────────
+
 .obsidian/
-assets/
-Excaldraw/
-Fonts/
-report/
-Zotero/
-삭제파일/
 .makemd/
 .space/
+Excaldraw/
+assets/
+Fonts/
+Zotero/
+삭제파일/
+삭제 파일/
+images/
+report/
+
+# 자동 생성된 또는 백업 파일
+*.bak
+*.tmp
+*~
