@@ -1,0 +1,82 @@
+# ------------------------
+# macOS 시스템 파일 무시
+# ------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 썸네일 캐시
+._*
+
+# Spotlight 파일
+.Spotlight-V100
+
+# Trash 폴더
+.Trashes
+
+# macOS에서 생성되는 메타데이터
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ------------------------
+# Python 관련 무시 파일
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# 가상환경
+env/
+venv/
+.venv/
+ENV/
+.env/
+.env.*
+
+# 패키지 관련 파일
+*.egg-info/
+.eggs/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter 노트북 체크포인트
+.ipynb_checkpoints/
+
+# PyInstaller 빌드 아티팩트
+dist/
+build/
+*.spec
+
+# Cython 빌드
+*.c
+*.so
+
+# ------------------------
+# Markdown 관련 무시 파일
+# ------------------------
+
+# VS Code markdown preview 저장파일 (확장기능)
+*.md.pdf
+*.md.html
+
+# MkDocs 빌드 디렉토리
+/site
+
+# ------------------------
+# 기타 IDE 및 툴 관련
+# ------------------------
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# 기타 로그
+*.log
