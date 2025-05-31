@@ -6,6 +6,9 @@ However, in the enterprise one would use a [client-server](https://docs.trychro
 
 Azure AI search’s ([previously Azure search, Azure Cognitive search](https://en.wikipedia.org/wiki/Azure_Cognitive_Search)) initial purpose was more like a Microsoft developed managed version of the [ElasticSearch](https://www.elastic.co/elasticsearch) service on Azure but has now rebranded itself as a combination of text and vector database thereby enabling “[hybrid](https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview)” search at scale.
 
+<div class="page-break" style="page-break-before: always;"></div>
+
+
 ## Overview of Embeddings-based retrieval
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*MRJBRkaBVo-PD-LRR1lRpA.png)
